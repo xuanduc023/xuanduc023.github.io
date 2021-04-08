@@ -1,0 +1,551 @@
+﻿<!doctype html>
+<html lang="vi">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/fontawesome-pro.css">
+    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Chi tiết sản phẩm | Wonderbly</title>
+
+</head>
+
+
+<body>
+    <div class="promo-banner color-white" style="background-color:#2cb492;top:0">
+        <div class="container">
+            <div class="promo-banner-inner">
+                <p>🌈 Giảm giá thần tốc! Giảm $8 cho đơn đặt hàng của bạn với mã
+                    <span class="highlight color-almost-black ml-2" style="background-color:#ffcc37">RAINBOW</span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <header>
+        <div class="header-main">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="navbar-toggler-container">
+                        <a class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </a>
+                    </div>
+
+                    <a class="navbar-brand logo" href="index.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="49" viewBox="-83 114.5 117 56">
+                            <path fill="#2CB492"
+                                d="M.1 114.6l-13.6 13L1 141.5v-26.6c0-.4-.6-.6-.9-.3zm-36.6 13l-13.6-13c-.3-.3-.9-.1-.9.3v26.6l14.5-13.9z">
+                            </path>
+                            <path fill="#80D2BE" d="M-51 141.5H1l-25.3-24.7c-.4-.4-1-.4-1.4 0L-51 141.5z"></path>
+                            <path fill="#2CB492"
+                                d="M18.6 163.9h1.6c.2 0 .6-.1.6-.6v-1.7c0-.4-.3-.5-.5-.5h-.7c-.4 0-.7-.3-.7-.7v-12.2c0-.3-.2-.5-.5-.5h-2.3c-.3 0-.5.2-.5.5v12.9c.1 1.7.9 2.8 3 2.8zM8.5 152.3c-1.5 0-2.8.6-3.3 1.5v-5.6c0-.3-.2-.5-.5-.5H2.3c-.3 0-.5.2-.5.5v15.3c0 .3.2.5.5.5h2.3c.3 0 .5-.2.5-.5v-.6c.6.9 1.9 1.5 3.3 1.5 3 0 5.6-2.3 5.6-6 .1-3.8-2.6-6.1-5.5-6.1zm-.6 8.9c-1.6 0-2.8-1.3-2.8-2.9s1.2-2.9 2.8-2.9c1.6 0 2.8 1.3 2.8 2.9s-1.2 2.9-2.8 2.9zm-8.4-8.7c-1.1 0-2.1.6-2.7 1.6v-.9c0-.3-.3-.5-.5-.5h-2.2c-.3 0-.5.2-.5.5v10.3c0 .3.2.5.5.5h2.3c.3 0 .5-.2.5-.5v-5c0-1.7.8-2.4 2.2-2.4h.6c.2 0 .6-.1.6-.6v-2.3c0-.5-.3-.6-.6-.6l-.2-.1zm-13.3-.2c-3.5 0-6 2.7-6 6 0 3.6 2.6 5.9 6 5.9 2.6 0 4-1 4.8-2 .2-.2.2-.5-.1-.7l-1.4-1.3c-.2-.2-.5-.2-.7 0-.7.7-1.5 1.1-2.6 1.1-1.3 0-2.4-.9-2.6-2.3h7.8c.5 0 .6-.3.6-.5v-.6c0-2.9-2.1-5.6-5.8-5.6zm-2.4 4.7c.3-1.3 1.3-2 2.5-2 1.1 0 2.2.6 2.5 2h-5zm-5.7-9.4h-2.3c-.3 0-.5.2-.5.5v5.6c-.5-.8-1.8-1.5-3.3-1.5-2.9 0-5.6 2.3-5.6 6 0 3.6 2.7 6 5.6 6 1.5 0 2.6-.6 3.3-1.5v.7c0 .3.2.5.5.5h2.3c.3 0 .5-.2.5-.5v-15.3c0-.2-.2-.5-.5-.5zm-5.5 13.6c-1.6 0-2.8-1.3-2.8-2.9s1.2-2.9 2.8-2.9c1.6 0 2.8 1.3 2.8 2.9s-1.3 2.9-2.8 2.9zm-11.2 2.2c0 .3.3.5.5.5h2.3c.3 0 .5-.2.5-.5v-6.3c0-2.8-1.9-4.9-4.9-4.9-1.8 0-3 .7-3.7 1.5v-.7c0-.3-.3-.5-.5-.5h-2.3c-.3 0-.5.2-.5.5v10.3c0 .3.2.5.5.5h2.3c.3 0 .5-.2.5-.5V158c0-1.6 1.1-2.7 2.6-2.7 1.6 0 2.5 1.1 2.5 2.7l.2 5.4zm-16.1-11.2c-3.4 0-6.1 2.6-6.1 6 0 3.3 2.8 6 6.1 6 3.4 0 6.1-2.6 6.1-6 .1-3.3-2.7-6-6.1-6zm0 8.9c-1.6 0-2.8-1.3-2.8-2.9s1.2-2.9 2.8-2.9c1.6 0 2.8 1.3 2.8 2.9 0 1.6-1.2 2.9-2.8 2.9zm88.5-7.7c.2-.5 0-.8-.4-.8H31c-.4 0-.5.3-.6.5l-2.6 6.7-2.9-6.7c-.2-.4-.3-.5-.6-.5h-2.6c-.6 0-.7.4-.5.8l4.4 9.4.5 1.1-1.2 2.6c-.3.6-.7 1.1-1.6 1.1H23c-.2 0-.5.1-.5.5v1.8c0 .5.4.6.6.6h.4c2.3 0 3.5-1.3 4.4-3.5l5.9-13.6zm-94.5-5.8h-2.6c-.3 0-.5.3-.5.5l-2.6 11.5-2.8-9.2c-.1-.4-.5-.7-1-.7h-2.4c-.5 0-.9.3-1 .7l-2.8 9.3-2.6-11.5c-.1-.3-.3-.5-.5-.5h-2.8c-.4 0-.7.3-.6.8l3.8 14.9c.1.4.4.5.6.5h3.9c.2 0 .5-.1.6-.5l2.6-8.5 2.6 8.5c.1.4.4.5.6.5h3.7c.1 0 .6-.1.6-.5l3.7-14.9c.2-.7-.2-.9-.5-.9z">
+                            </path>
+                        </svg>
+                    </a>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <a class="btn-nav-close" title="Đóng" class="navbar-toggler" href="javascript:void(0)" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                            <i class="fas fa-times mr-2"></i> Đóng</a>
+
+
+                        <ul class="navbar-nav me-auto ">
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="product-list.html">
+                                    <span>Tất cả sách</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="san-pham.html">
+                                    <span>Sách theo tuổi</span>
+
+                                    <i class="fas fa-caret-down icon-toggle"></i>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item d-flex align-items-center" href="#">
+                                        0-3 tuổi
+                                    </a>
+                                    <a class="dropdown-item d-flex align-items-center" href="#">
+                                        3-6 tuổi
+                                    </a>
+                                    <a class="dropdown-item d-flex align-items-center" href="#">
+                                        hơn 6 tuổi
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="product-list.html">
+                                    <span>Bán chạy</span>
+                                    <i class="fas fa-caret-down icon-toggle"></i>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item d-flex align-items-center" href="#">
+                                        Nhiều người chọn
+                                    </a>
+                                    <a class="dropdown-item d-flex align-items-center" href="#">
+                                        Bạn ở đâu?
+                                    </a>
+                                    <a class="dropdown-item d-flex align-items-center" href="#">
+                                        Theo tên
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="nav-featured">
+                        <div class="nav-lang nav-item">
+                            <a class="nav-link" href="thu-vien.html">
+                                <span>Tiếng Việt</span>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    Tiếng Anh
+                                </a>
+                            </div>
+                        </div>
+                        <a class="nav-account" href="#">
+                            <span>Tài khoản</span><i class="far fa-user"></i>
+                        </a>
+                        <div class="nav-cart-container">
+                            <a class="cart" href="#">
+                                <span>Giỏ hàng</span><i class="far fa-shopping-cart"></i>
+                            </a>
+                            <span class="count">0</span>
+                        </div>
+                    </div>
+
+                </nav>
+
+            </div>
+        </div>
+    </header>
+
+    <section class="section-padding section-product-detail">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="vehicle-detail-banner banner-content">
+                        <div class="banner-slider">
+                            <div class="slider slider-nav thumb-image">
+                                <div class="thumbnail-image">
+                                    <div class="thumbImg">
+                                        <img src="/images_test/banner-product-1.jpg" alt="slider-img">
+                                    </div>
+                                </div>
+                                <div class="thumbnail-image">
+                                    <div class="thumbImg">
+                                        <img src="/images_test/banner-product-2.jpg" alt="slider-img">
+                                    </div>
+                                </div>
+                                <div class="thumbnail-image">
+                                    <div class="thumbImg">
+                                        <img src="/images_test/banner-product-3.jpg" alt="slider-img">
+                                    </div>
+                                </div>
+                                <div class="thumbnail-image">
+                                    <div class="thumbImg">
+                                        <img src="/images_test/banner-product-4.jpg" alt="slider-img">
+                                    </div>
+                                </div>
+                                <div class="thumbnail-image">
+                                    <div class="thumbImg">
+                                        <img src="/images_test/banner-product-5.jpg" alt="slider-img">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider slider-for">
+                                <div class="slider-banner-image">
+                                    <img src="/images_test/banner-product-1.jpg" alt="">
+                                </div>
+                                <div class="slider-banner-image">
+                                    <img src="/images_test/banner-product-2.jpg" alt="">
+                                </div>
+                                <div class="slider-banner-image">
+                                    <img src="/images_test/banner-product-3.jpg" alt="">
+                                </div>
+                                <div class="slider-banner-image">
+                                    <img src="/images_test/banner-product-4.jpg" alt="">
+                                </div>
+                                <div class="slider-banner-image">
+                                    <img src="/images_test/banner-product-5.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="product-info-header">
+                        <h1 class="title">Giờ đi ngủ cho bạn</h1>
+                        <div class="rating">
+                            <input type="hidden" class="form-control" id="starrr" value="4" />
+                            <div class='starrr'></div> <span>(370 đánh giá)</span>
+                        </div>
+                        <p class="desc">Mang đến những giấc mơ ngọt ngào nhất cho những gì quý giá nhất của những đứa trẻ nhỏ bé. Một câu chuyện trước khi đi ngủ được cá nhân hóa và được minh họa đẹp mắt bằng một câu thơ quyến rũ, đó là câu chuyện đếm ngược đi ngủ thú
+                            vị nhất, âu yếm nhất từ ​​trước đến nay!</p>
+                        <div class="product-info">
+                            <p>
+                                <i class="fal fa-gift-card"></i> <span>Recommended for ages 0-4</span>
+                            </p>
+                            <p>
+                                <i class="fal fa-book-open"></i> <span>Preview all 26 pages before buying</span>
+                            </p>
+                            <p>
+                                <i class="fal fa-globe-asia"></i> <span>Ships worldwide within 48 hours</span>
+                            </p>
+                        </div>
+                        <div class="product-price">
+                            <span>$34.99 USD</span>
+                        </div>
+                        <div class="mb-4">
+                            <a class="btn btn-primary d-block" href="">Cá nhân hóa</a>
+                        </div>
+                        <div class="faq-content" id="faq-content">
+                            <div class="card">
+                                <div class="card-header" id="headingOne">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            <i class="fas fa-question-circle"></i> Sách được cá nhân hóa như thế nào?
+                                        </button>
+                                    </h2>
+                                </div>
+
+                                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#faq-content">
+                                    <div class="card-body">
+                                        <ul>
+                                            <li>Add a child’s first name, and see it magically appear on the cover and throughout the story</li>
+                                            <li>Choose their charming character</li>
+                                            <li>Add your own free dedication to the first page</li>
+                                            <li>Preview the whole book before you buy!</li>
+                                        </ul>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingTwo">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            <i class="fas fa-question-circle"></i> Câu chuyện là gì?
+                                        </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faq-content">
+                                    <div class="card-body">
+                                        <p>Năm chú cừu non, bốn chú gà con lông bông, ba chú thỏ khá đáng yêu! Các con vật đếm trẻ đi ngủ bằng những câu thơ có vần điệu nhẹ nhàng và hình ảnh minh họa ấm cúng, âu yếm.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingThree">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            <i class="fas fa-question-circle"></i> Kích thước và chất lượng
+                                        </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#faq-content">
+                                    <div class="card-body">
+                                        <p>Có sẵn ở dạng bìa cứng hoặc bìa mềm thân thiện với trẻ mới biết đi (9 "x 9"), mỗi cuốn sách được in trên loại giấy dày, sang trọng có nguồn gốc từ các khu rừng bền vững (được FSC chứng nhận). Kích thước hoàn hảo
+                                            cho những bàn tay nhỏ và cùng nhau đọc sách mỗi đêm!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="section-description section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Sách và Quà tặng được Cá nhân hóa Tuyệt vời</h2>
+            </div>
+            <div class="row">
+                <div class="detail-content">
+                    <h3 class="text-mega">Who is Wonderbly?</h3>
+                    <p>We’re so glad you asked! Wonderbly is an online personalized children’s book company. Since 2013, our bestselling books have delighted over six million children (and grown-ups!) all over the world. Together, we want to inspire the
+                        next generation of brave, imaginative, book-loving kids – one personalized story at a time.</p>
+                    <h3 class="text-mega">How do I make a personalized book?&nbsp;</h3>
+                    <p>Browse our collection of 30+ <a href="/personalized-products">personalized books</a>, and we’ll put your child right inside the story, making it their own forever more. All you need to do to create a one-in-a-million gift is add your
+                        child’s name, choose their character, and write your heartfelt dedication message. We’ll weave everything together into a unique custom book starring your child, print it on high-quality paper and deliver it straight to your front
+                        door!
+                    </p>
+                    <h3 class="text-mega">How do I place an order with Wonderbly?</h3>
+                    <p>Simply decide which custom book you’d like to create for your child, then add their name, choose the character that looks most like them, and write a personal dedication to make it all your own. Tap the green button, and you’ll be
+                        able to preview your entire book before you buy. Once you’re happy with every detail, enter your payment information and tap the order button. Your personalized book will arrive on your doorstep in 7 to 10 days.
+                    </p>
+                    <h3 class="text-mega">How much are Wonderbly books?&nbsp;</h3>
+                    <p>Our children’s books cost between $5.99 and $29.99, depending on the story and the format you choose to create. We offer our books in an original softcover format with thick, child-friendly pages, and a slightly pricier hardcover format,
+                        which makes for a perfect keepsake. We offer two different shipping options, standard and speedy – speedy is ideal if you need a story in a hurry. It costs a little extra to send your book in one of our glorious gift wraps, or
+                        pop in one of our stupendous sticker packs, but we doubt you’ll regret either one.</p>
+                    <p>The best bit about our pricing? We have different promos running so check out our <a href="/offers">discounts and coupons</a> page to see our latest book offer.</p>
+                    <h3 class="text-mega">Why are your books such splendid gifts?</h3>
+                    <p>We think there’s nothing more wondrous than getting a book with your name on it! We make extra-special personalized <a href="/pages/baby-newborn-books">books for babies</a>, personalised <a href="/pages/our-birthday-books">birthday books</a>,
+                        personalised <a href="/pages/christmas">Christmas books</a>, Father’s Day books, Mother’s Day books – and more!</p>
+                    <h3 class="text-mega">Where is Wonderbly based?</h3>
+                    <p>Wonderbly HQ is a colorful warehouse based in East London, UK. But thanks to the power of the internet, or books are available to buy worldwide! We ship books to over 150 countries across our wonderful planet, but we can’t get them
+                        to the moon. Yet.</p>
+                    <h3 class="text-mega">How do I contact Wonderbly?</h3>
+                    <p>You can easily reach our friendly team of Customer Support Angels easily by:<br> Filling in our
+                        <a href="https://help.wonderbly.com/en/contact">Contact Form</a><br> Emailing us directly at <a href="mailto:hello@wonderbly.com">hello@wonderbly.com</a></p>
+                    <p>Our team of Angels provides personalized support from Monday to Friday, working as quickly as possible to answer all of your questions. If you've not heard back straight away, please don't fret - rest assured, they answer every message
+                        sent!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-features section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Who would you like to make a book for today?</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="features-item" style="background-image: url(/images_test/0-3.jpg)">
+                        <div class="info">
+                            <h3 class="title">Từ 0 - 3 tuổi</h3>
+                            <p class="desc">Câu chuyện về tình yêu và học tập</p>
+                        </div>
+                        <a class="btn btn-primary" target="_blank" href="#" title="Cá nhân hóa">Cá nhân hóa</a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="features-item" style="background-image: url(/images_test/3-6.jpg)">
+                        <div class="info">
+                            <h3 class="title">Từ 3 - 6 tuổi</h3>
+                            <p class="desc">Sách tăng cường trí tưởng tượng</p>
+                        </div>
+                        <a class="btn btn-primary" target="_blank" href="#" title="Cá nhân hóa">Cá nhân hóa</a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="features-item" style="background-image: url(/images_test/6.jpg)">
+                        <div class="info">
+                            <h3 class="title">Hơn 6 tuổi</h3>
+                            <p class="desc">Sách để phát triển sự tự tin của họ</p>
+                        </div>
+                        <a class="btn btn-primary" target="_blank" href="#" title="Cá nhân hóa">Cá nhân hóa</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="section-form section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nhận thêm nhiều ý tưởng thông minh và cập nhật hấp dẫn</h2>
+            </div>
+            <div class="form-sign-up">
+                <div class="container-fluid p-0">
+                    <div class="row">
+                        <div class="col-12 col-lg-6">
+                            <input class="form-control" value="" placeholder="Nhập email của bạn...">
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <a class="btn btn-outline-primary" href="">Đăng ký</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="row flex-wrap-reverse flex-lg-wrap">
+                    <div class="col-md-6 col-lg-3">
+                        <h4 class="f-title">Wonderbly</h4>
+                        <ul class="f-list">
+                            <li class="f-link">
+                                <a href="#" title="">Về chúng tôi</a>
+                            </li>
+                            <li class="f-link">
+                                <a href="#" title="">Tuyển dụng</a>
+                            </li>
+                            <li class="f-link">
+                                <a href="#" title="">Ưu đãi</a>
+                            </li>
+                            <li class="f-link">
+                                <a href="#" title="">Chương trình liên kết</a>
+                            </li>
+                            <li class="f-link">
+                                <a href="#" title="">Nhận phần thưởng</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <h4 class="f-title">Cửa hàng</h4>
+                        <ul class="f-list">
+                            <li class="f-link">
+                                <a href="#" title="">Tất cả sách được cá nhân hóa</a>
+                            </li>
+                            <li class="f-link">
+                                <a href="#" title="">World of Lost My NameBestseller</a>
+                            </li>
+                            <li class="f-link">
+                                <a href="#" title="">World of Where Are You</a>
+                            </li>
+                            <li class="f-link">
+                                <a href="#" title="">Books for babies & newborn</a>
+                            </li>
+                            <li class="f-link">
+                                <a href="#" title="">Books for toddlers</a>
+                            </li>
+                            <li class="f-link">
+                                <a href="#" title="">Books for children ages 3-6</a>
+                            </li>
+                            <li class="f-link">
+                                <a href="#" title="">Books for children ages 6+</a>
+                            </li>
+                            <li class="f-link">
+                                <a href="#" title="">First Steps For You</a>
+                            </li>
+                            <li class="f-link">
+                                <a href="#" title="">Christmas books</a>
+                            </li>
+                            <li class="f-link">
+                                <a href="#" title="">Activity books for kids</a>
+                            </li>
+                            <li class="f-link">
+                                <a href="#" title="">Mother's day books</a>
+                            </li>
+                            <li class="f-link">
+                                <a href="#" title="">Father's day books</a>
+                            </li>
+                            <li class="f-link">
+                                <a href="#" title="">Birthday books</a>
+                            </li>
+                            <li class="f-link">
+                                <a href="#" title="">Personalized books for adults</a>
+                            </li>
+                            <li class="f-link">
+                                <a href="#" title="">Valentine's day books</a>
+                            </li>
+                            <li class="f-link">
+                                <a href="#" title="">Books for siblings</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <h4 class="f-title">Hỗ trợ</h4>
+                        <ul class="f-list">
+                            <li class="f-link">
+                                <a href="#" title="">Liên hệ</a>
+                            </li>
+                            <li class="f-link">
+                                <a href="#" title="">Thông tin giao hàng</a>
+                            </li>
+                            <li class="f-link">
+                                <a href="#" title="">Chính sách trả hàng</a>
+                            </li>
+                            <li class="f-link">
+                                <a href="#" title="">Chính sách bảo mật</a>
+                            </li>
+                            <li class="f-link">
+                                <a href="#" title="">Điều khoản và Điều kiện</a>
+                            </li>
+                            <li class="f-link">
+                                <a href="#" title="">Sitemap</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="payment-icons">
+                            <img src="images/visa.png" class="payment-icon" alt="">
+                            <img src="images/mastercard.png" class="payment-icon" alt="">
+                            <img src="images/paypal.png" class="payment-icon" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <ul class="copyright-list">
+                    <li>
+                        <a href="#" title="">Terms & Conditions</a>
+                    </li>
+                    <li>
+                        <a href="#" title="">Privacy Policy</a>
+                    </li>
+                    <li>
+                        30-36 Pritchard's Rd, London E2 9AP
+                    </li>
+                    <li>
+                        Lostmy.name Ltd (trading as Wonderbly, Reg Co. Number 08305498)
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Luôn phải có. Dùng để tạo lớp mờ khi mở menu ở mobile -->
+    <div class="bg-overlay navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"> </div>
+
+    <p id="back-top">
+        <a href="javascript:void();" title="Scroll To Top">
+            <i class="fal fa-angle-up"></i>
+        </a>
+    </p>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            var starrrValue = $('#starrr');
+            $('.starrr').starrr({
+                rating: starrrValue.val(),
+                readOnly: true
+            });
+
+            $('.slider-for').slick({
+                slidesToShow: 1,
+                arrows: true,
+                fade: false,
+                dots: true,
+                asNavFor: '.slider-nav',
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 10000,
+                touchMove: true,
+                infinite: false
+            });
+            $('.slider-nav').slick({
+                slidesToShow: 8,
+                vertical: true,
+                asNavFor: '.slider-for',
+                dots: false,
+                focusOnSelect: true,
+                lazyLoad: 'ondemand',
+                verticalSwiping: true,
+                focusOnSelect: true,
+                slidesToScroll: 1,
+                touchMove: true,
+                infinite: false
+            });
+
+        });
+    </script>
+
+</body>
+
+</html>
