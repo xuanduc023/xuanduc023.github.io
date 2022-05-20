@@ -77,7 +77,7 @@
 }
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
-  background: #e53935;
+  background: var(--color-primary);
 }
 /*===== OWL CUSTOMER =====*/
 .owl-theme-nav .owl-nav .owl-next {
@@ -107,6 +107,10 @@
   border-left-color: #111;
 }
 /*===== OWL BANNER =====*/
+.owl-banner-main{
+  border-radius: var(--border-radius);
+  overflow: hidden;
+}
 .owl-banner-main .owl-dots {
   position: absolute;
   bottom: 10px;
@@ -117,8 +121,8 @@
   margin-top: 0;
 }
 .owl-banner-main .owl-dots .owl-dot span {
-  width: 16px;
-  height: 16px;
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
 }
 /*===== OWL CUSTOMER =====*/
@@ -193,13 +197,17 @@
 
 .owl-product .owl-nav .owl-prev,
 .owl-news .owl-nav .owl-prev {
-  left: -16px;
+  left: 0px;
 }
 .owl-product .owl-nav .owl-next,
 .owl-news .owl-nav .owl-next {
-  right: -16px;
+  right: 0px;
 }
 
+.owl-gallery-images img{
+  border-radius: var(--border-radius);
+  overflow: hidden;
+}
 
 @media (max-width: 1366px){
  

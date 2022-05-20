@@ -1,25 +1,29 @@
 :root {
-  --font-family: "Roboto script=vietnamese rev=2", sans-serif;
+  --font-family: "Quicksand", sans-serif;
   --font-size: 15px;
   --color-text: #111;
   --color-text-hover: #008848;
   --color-primary: #008848;
-  --color-primary-hover: #037540;
+  --color-primary-hover: #006435;
   --color-white: #fff;
   --color-orange: #fe0000;
   --color-red: #ed1c24;
   --color-blue: #288ad6;
-  --color-yellow: #ebfa48;
+  --color-yellow: #fadf48;
   --color-border: #ddd;
-  --color-border-search: #008848;
-  --color-bgmenu: #008848;
-  --color-bgmenu-hover: rgba(19, 18, 24, 0.16);
-  --color-menu: #fff;
+  --color-border-search: var(--color-primary);
+  --color-bgheader: var(--color-primary);
+  --color-bgmenu: var(--color-primary);
+  --color-bgmenu-hover: rgba(43, 40, 58, 0.16);
+  --color-menu: var(--color-white);
   --color-menu-second: #111;
-  --color-bgevent: #fe0000;
-  --color-bgbox: #008848;
+  --color-bgbody: #fff;  
+  --color-bgevent: #00743e;
+  --color-bgbox: #008848;  
+  --border-radius: 5px;
   --margin-bottom: 20px;
 
+  --filter-color-primary: invert(33%) sepia(75%) saturate(3222%) hue-rotate(138deg) brightness(84%) contrast(101%);
   --filter-color-white: invert(100%) sepia(100%) saturate(0%) hue-rotate(282deg) brightness(103%) contrast(103%);
   --filter-color-black: invert(0%) sepia(3%) saturate(3769%) hue-rotate(11deg) brightness(84%) contrast(87%);
   --filter-color-orange: invert(42%) sepia(72%) saturate(1522%) hue-rotate(358deg) brightness(100%) contrast(108%);

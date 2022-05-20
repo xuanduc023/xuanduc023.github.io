@@ -30,7 +30,7 @@
   margin-bottom: 10px;
 }
 .news-item-time {
-  color: #b7b7b7;
+  color: #999;
   font-size: 14px;
   margin-bottom: 10px;
 }
@@ -144,21 +144,17 @@
   -webkit-border-radius: 0;
   border-radius: 0;
 }
-.news-item-vertical .news-item-img {
-  -webkit-border-radius: 3px 3px 0 0;
-  border-radius: 3px 3px 0 0;
+.news-item-vertical .news-item-img { 
+  border-radius: var(--border-radius);
+  overflow: hidden;
 }
 .news-item-vertical .card-body {
   position: relative;
-  padding: 16px 16px 46px 16px;
-  -webkit-border-radius: 0 0 3px 3px;
+  padding: 16px  0px;
+  -webkit-border-r16pxadius: 0 0 3px 3px;
   border-radius: 0 0 3px 3px;
 }
-.news-item-vertical .btn-continue {
-  position: absolute;
-  left: 16px;
-  bottom: 16px;
-}
+ 
 .owl-news .news-item-vertical {
   margin-bottom: 0;
 }
@@ -173,14 +169,12 @@
   margin-bottom: var(--margin-bottom);
 }
 .news-item-right .news-item-img {
-  width: 150px;
-  -webkit-border-radius: 3px 0 0 3px;
-  border-radius: 3px 0 0 3px;
+  width: 150px; 
+  border-radius: var(--border-radius);
   margin-right: 10px;
 }
 .news-item-right .news-item-title {
-  font-size: var(--font-size);
-  margin-bottom: 0;
+  font-size: var(--font-size); 
 }
 
 .news-list .col-news-item {
@@ -230,16 +224,30 @@
   bottom: 20px;
   font-size: 17px;
 }
-
+.box-news-special .news-item-vertical .card-body {
+  padding: 16px 0 30px 0;
+}
+.box-news-special .news-item-vertical .news-item-title {
+  font-size: 17px; 
+}
+.box-news-special .news-item-vertical .btn-continue {
+  left: 0;
+  bottom: 0;
+}
 @media (max-width: 1366px) {
 }
 
 @media (max-width: 991px) {
-}
-
-@media (max-width: 768px) {
   .news-list .col-news-item {
     margin-bottom: 12px;
+    width: 100% !important;
+    max-width: 100% !important;
+    flex: 0 0 100% !important; 
+  }
+  .news-list .col-news-item .card-body{
+    border: none;
+    display: flex;
+    flex-direction: column-reverse;
   }
   .news-item {
     width: 100%;
@@ -265,7 +273,7 @@
   }
   .news-item .news-item-title {
     font-size: 100%;
-    margin-bottom: 0;
+    margin-bottom: 5px;
   }
   .news-item .news-item-desc,
   .news-item .btn-continue,
@@ -305,6 +313,10 @@
   .author-detail .author-info {
     text-align: center;
   }
+}
+
+@media (max-width: 768px) {
+  
 }
 
 @media (max-width: 575px) {
