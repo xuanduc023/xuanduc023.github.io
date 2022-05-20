@@ -1,0 +1,59 @@
+.modal-book .modal-dialog {
+  max-width: 800px;
+  width: 800px;
+}
+
+.modal-book .modal-dialog {
+  max-width: calc(100% - 30px);
+}
+.modal-book .modal-body {
+  -ms-flex-direction: row !important;
+  flex-direction: row !important;
+}
+.modal-book .modal-left {
+  -ms-flex: 0 0 40%;
+  -webkit-box-flex: 0;
+  flex: 0 0 40%;
+  max-width: 40%;
+  padding: 20px;
+}
+.modal-book .modal-right {
+  -ms-flex: 0 0 60%;
+  -webkit-box-flex: 0;
+  flex: 0 0 60%;
+  max-width: 60%;
+}
+.modal-book .modal-hotline {
+  border: 1px dashed #fdfb56;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+@media (max-width: 1366px) {
+}
+
+@media (max-width: 991px) {
+}
+
+@media (max-width: 768px) {
+  .modal-book .modal-logo {
+    margin: 10px 0;
+  }
+  .modal-book .modal-logo img {
+    max-height: 90px;
+  }
+  .modal-book .modal-hotline {
+    padding: 10px 0;
+    border-top: 1px solid #304258;
+  }
+  .modal-book .modal-hotline > a {
+    font-size: 24px;
+    line-height: 1;
+  }
+}
+
+@media (max-width: 575px) {
+}
+
+@media (max-width: 375px) {
+}

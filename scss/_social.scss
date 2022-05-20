@@ -1,0 +1,81 @@
+/* ===== SOCIAL FOOTER ===== */
+.social{
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.social>li {
+    float:left;
+    display: inline-block;
+    margin-left:5px;
+}
+.social>li:first-child{
+    margin-left: 0;
+}
+.social>li>a {
+    position:relative;
+    display: inline-block;
+    color: #eee;
+    width:40px;
+    height:40px;
+    text-align: center;
+    background-color: rgba(255,255,255,.03);
+    -webkit-border-radius:50%;
+            border-radius:50%;
+}
+.social>li>a:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid #fff;
+    opacity: .03;
+    -webkit-border-radius:50%;
+            border-radius:50%;
+}
+.social>li>a:hover,
+.social>li>a:focus,
+.social>li>a:active{
+    color: #018fe5;
+}
+.social>li>a>.fa{
+    margin-top:12px;
+    filter:var(--filter-color-white);
+}
+.social>li>a:hover .fa,
+.social>li>a:focus.fa,
+.social>li>a:active.fa{
+    filter:var(--filter-color-orange);
+}
+.social-share>span{
+    margin-right:6px;
+}
+.social .facebook,
+.social-share .facebook{
+    background-color:#3d5a98
+}
+.social .instagram{
+    background-color: #d6005d;
+}
+.social .youtube{
+    background-color: #ff0000;
+}
+.social .twitter,
+.social-share .twitter{
+    background-color: #00aced;
+}
+.social .pinterest,
+.social-share .pinterest{
+    background-color: #bd081c;
+}
+.social .linkedin,
+.social-share .linkedin{
+    background-color: #0077b5;
+}
+.social .about,
+.social-share .about{
+    background-color: #43bffb;
+}

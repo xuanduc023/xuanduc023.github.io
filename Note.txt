@@ -1,0 +1,13 @@
+Red: e53935
+Blue: 288ad6
+Orange: ff6a00
+Yellow: ebfa48
+=================
+
+
+
+Blue đậm: 113562
+Blue: 288ad6
+Orange: ff6a00
+Yellow: ebfa48
+=================

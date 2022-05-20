@@ -1,630 +1,881 @@
-﻿<!doctype html>
+﻿<!DOCTYPE html>
 <html lang="vi">
-
 <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/slick.css">
-    <link rel="stylesheet" href="css/fontawesome-pro.css">
-    <link rel="stylesheet" href="css/main.min.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <title>Trang chủ | Wonderbly</title>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Home - DOGI</title>
+    <!-- core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/owl.carousel.min.css" rel="stylesheet">
+    <link href="css/jquery.fancybox.min.css" rel="stylesheet">
+    <link href="css/root.css" rel="stylesheet">
+    <link href="css/style.min.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/home.min.js"></script>
+    <link rel="shortcut icon" href="images/favico.png">
 </head>
-
-
 <body>
-    <div class="promo-banner color-white" style="background-color:#2cb492;top:0">
-        <div class="container">
-            <div class="promo-banner-inner">
-                <p>🌈 Giảm giá thần tốc! Giảm $8 cho đơn đặt hàng của bạn với mã
-                    <span class="highlight color-almost-black ml-2" style="background-color:#ffcc37">RAINBOW</span>
-                </p>
-            </div>
-        </div>
-    </div>
-    <header>
+    <section class="event">
+        <a class="event-link" href="#">
+            <span class="dot"><span class="ping"></span></span>
+            <span class="event-text">Flash sale giảm đến <strong>50%</strong>trong ngày hôm nay</span>
+            <span class="btn-event">Mua ngay</span>
+        </a>
+    </section>
+
+    <header class="header">
         <div class="header-main">
             <div class="container">
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <div class="navbar-toggler-container">
-                        <a class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </a>
-                    </div>
-
-                    <a class="navbar-brand logo" href="index.html">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="49" viewBox="-83 114.5 117 56">
-                            <path fill="#2CB492"
-                                d="M.1 114.6l-13.6 13L1 141.5v-26.6c0-.4-.6-.6-.9-.3zm-36.6 13l-13.6-13c-.3-.3-.9-.1-.9.3v26.6l14.5-13.9z">
-                            </path>
-                            <path fill="#80D2BE" d="M-51 141.5H1l-25.3-24.7c-.4-.4-1-.4-1.4 0L-51 141.5z"></path>
-                            <path fill="#2CB492"
-                                d="M18.6 163.9h1.6c.2 0 .6-.1.6-.6v-1.7c0-.4-.3-.5-.5-.5h-.7c-.4 0-.7-.3-.7-.7v-12.2c0-.3-.2-.5-.5-.5h-2.3c-.3 0-.5.2-.5.5v12.9c.1 1.7.9 2.8 3 2.8zM8.5 152.3c-1.5 0-2.8.6-3.3 1.5v-5.6c0-.3-.2-.5-.5-.5H2.3c-.3 0-.5.2-.5.5v15.3c0 .3.2.5.5.5h2.3c.3 0 .5-.2.5-.5v-.6c.6.9 1.9 1.5 3.3 1.5 3 0 5.6-2.3 5.6-6 .1-3.8-2.6-6.1-5.5-6.1zm-.6 8.9c-1.6 0-2.8-1.3-2.8-2.9s1.2-2.9 2.8-2.9c1.6 0 2.8 1.3 2.8 2.9s-1.2 2.9-2.8 2.9zm-8.4-8.7c-1.1 0-2.1.6-2.7 1.6v-.9c0-.3-.3-.5-.5-.5h-2.2c-.3 0-.5.2-.5.5v10.3c0 .3.2.5.5.5h2.3c.3 0 .5-.2.5-.5v-5c0-1.7.8-2.4 2.2-2.4h.6c.2 0 .6-.1.6-.6v-2.3c0-.5-.3-.6-.6-.6l-.2-.1zm-13.3-.2c-3.5 0-6 2.7-6 6 0 3.6 2.6 5.9 6 5.9 2.6 0 4-1 4.8-2 .2-.2.2-.5-.1-.7l-1.4-1.3c-.2-.2-.5-.2-.7 0-.7.7-1.5 1.1-2.6 1.1-1.3 0-2.4-.9-2.6-2.3h7.8c.5 0 .6-.3.6-.5v-.6c0-2.9-2.1-5.6-5.8-5.6zm-2.4 4.7c.3-1.3 1.3-2 2.5-2 1.1 0 2.2.6 2.5 2h-5zm-5.7-9.4h-2.3c-.3 0-.5.2-.5.5v5.6c-.5-.8-1.8-1.5-3.3-1.5-2.9 0-5.6 2.3-5.6 6 0 3.6 2.7 6 5.6 6 1.5 0 2.6-.6 3.3-1.5v.7c0 .3.2.5.5.5h2.3c.3 0 .5-.2.5-.5v-15.3c0-.2-.2-.5-.5-.5zm-5.5 13.6c-1.6 0-2.8-1.3-2.8-2.9s1.2-2.9 2.8-2.9c1.6 0 2.8 1.3 2.8 2.9s-1.3 2.9-2.8 2.9zm-11.2 2.2c0 .3.3.5.5.5h2.3c.3 0 .5-.2.5-.5v-6.3c0-2.8-1.9-4.9-4.9-4.9-1.8 0-3 .7-3.7 1.5v-.7c0-.3-.3-.5-.5-.5h-2.3c-.3 0-.5.2-.5.5v10.3c0 .3.2.5.5.5h2.3c.3 0 .5-.2.5-.5V158c0-1.6 1.1-2.7 2.6-2.7 1.6 0 2.5 1.1 2.5 2.7l.2 5.4zm-16.1-11.2c-3.4 0-6.1 2.6-6.1 6 0 3.3 2.8 6 6.1 6 3.4 0 6.1-2.6 6.1-6 .1-3.3-2.7-6-6.1-6zm0 8.9c-1.6 0-2.8-1.3-2.8-2.9s1.2-2.9 2.8-2.9c1.6 0 2.8 1.3 2.8 2.9 0 1.6-1.2 2.9-2.8 2.9zm88.5-7.7c.2-.5 0-.8-.4-.8H31c-.4 0-.5.3-.6.5l-2.6 6.7-2.9-6.7c-.2-.4-.3-.5-.6-.5h-2.6c-.6 0-.7.4-.5.8l4.4 9.4.5 1.1-1.2 2.6c-.3.6-.7 1.1-1.6 1.1H23c-.2 0-.5.1-.5.5v1.8c0 .5.4.6.6.6h.4c2.3 0 3.5-1.3 4.4-3.5l5.9-13.6zm-94.5-5.8h-2.6c-.3 0-.5.3-.5.5l-2.6 11.5-2.8-9.2c-.1-.4-.5-.7-1-.7h-2.4c-.5 0-.9.3-1 .7l-2.8 9.3-2.6-11.5c-.1-.3-.3-.5-.5-.5h-2.8c-.4 0-.7.3-.6.8l3.8 14.9c.1.4.4.5.6.5h3.9c.2 0 .5-.1.6-.5l2.6-8.5 2.6 8.5c.1.4.4.5.6.5h3.7c.1 0 .6-.1.6-.5l3.7-14.9c.2-.7-.2-.9-.5-.9z">
-                            </path>
-                        </svg>
+                <div class="d-flex align-items-center justify-content-between">
+                    <a class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="icon-bars"></i>
                     </a>
+                    <a class="logo" href="#">
+                        <img src="images_test/logo.jpg" />
+                    </a>
+                    <a class="d-flex align-items-center cart" href="/cart" title="Giỏ hàng" rel="nofollow"><i class="fa fa-cart"></i><span class="number">0</span><span class="text">Giỏ hàng</span></a>
+                    <form class="form-search">
+                        <input class="form-control" type="text" placeholder="Nhập từ khóa cần tìm..." />
+                        <a class="btn-search center" href="#"></a>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="header-nav">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg">
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <a class="btn-nav-close" title="Đóng" class="navbar-toggler" href="javascript:void(0)" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
-                            <i class="fas fa-times mr-2"></i> Đóng</a>
-
-
-                        <ul class="navbar-nav me-auto ">
-
+                        <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="product-list.html">
-                                    <span>Tất cả sách</span>
-                                </a>
+                                <a class="nav-link" href="#">Trang chủ</a>
+                            </li>
+                            <li class="nav-item dropdown full">
+                                <a class="nav-link" href="#">Sản phẩm<i class="caret"></i></a>
+                                <div class="dropdown-menu">
+                                    <div class="col-dropdown-item">
+                                        <a href="#"><img src="images_test/icon-mazda-2.png" /><span class="dropdown-item-title">Mazda 2</span></a>
+                                    </div>
+                                    <div class="col-dropdown-item">
+                                        <a href="#"><img src="images_test/icon-mazda-3.png" /><span class="dropdown-item-title">Mazda 3</span></a>
+                                    </div>
+                                    <div class="col-dropdown-item">
+                                        <a href="#"><img src="images_test/icon-mazda-6.png" /><span class="dropdown-item-title">Mazda 6</span></a>
+                                    </div>
+                                    <div class="col-dropdown-item">
+                                        <a href="#"><img src="images_test/icon-mazda-cx5.png" /><span class="dropdown-item-title">Mazda CX-5</span></a>
+                                    </div>
+                                    <div class="col-dropdown-item">
+                                        <a href="#"><img src="images_test/icon-mazda-cx8.png" /><span class="dropdown-item-title">Mazda CX-8</span></a>
+                                    </div>
+                                    <div class="col-dropdown-item">
+                                        <a href="#"><img src="images_test/icon-mazda-bt50.png" /><span class="dropdown-item-title">Mazda BT-50</span></a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="#">Dịch vụ<i class="caret"></i></a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="#">Chế độ bảo hành</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Bảo dưỡng định kỳ</a>
+                                    </li>
+                                    <li class="dropdown-submenu">
+                                        <a class="dropdown-item" href="#">Phụ tùng và phụ kiện<i class="caret"></i></a>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a class="dropdown-item" href="#">Chế độ bảo hành</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="#">Bảo dưỡng định kỳ</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="#">Phụ tùng và phụ kiện</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="#">Câu hỏi thường gặp</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="#">Dịch vụ sửa chữa</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            Câu hỏi thường gặp
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            Dịch vụ sửa chữa
+                                        </a>
+                                    </li>
+                                </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="product-list.html">
-                                    <span>Sách theo tuổi</span>
-
-                                    <i class="fas fa-caret-down icon-toggle"></i>
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="nav-link" href="#">Công nghệ</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="#">Tin tức<i class="caret"></i></a>
+                                <div class="dropdown-menu">
                                     <a class="dropdown-item d-flex align-items-center" href="#">
-                                        0-3 tuổi
+                                        Tin thị trường
                                     </a>
                                     <a class="dropdown-item d-flex align-items-center" href="#">
-                                        3-6 tuổi
-                                    </a>
-                                    <a class="dropdown-item d-flex align-items-center" href="#">
-                                        hơn 6 tuổi
+                                        Tin khuyến mãi
                                     </a>
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="product-list.html">
-                                    <span>Bán chạy</span>
-                                    <i class="fas fa-caret-down icon-toggle"></i>
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item d-flex align-items-center" href="#">
-                                        Nhiều người chọn
-                                    </a>
-                                    <a class="dropdown-item d-flex align-items-center" href="#">
-                                        Bạn ở đâu?
-                                    </a>
-                                    <a class="dropdown-item d-flex align-items-center" href="#">
-                                        Theo tên
-                                    </a>
-                                </div>
+                                <a class="nav-link" href="#">Liên hệ</a>
                             </li>
-
                         </ul>
                     </div>
-                    <div class="nav-featured">
-                        <div class="nav-lang nav-item">
-                            <a class="nav-link" href="thu-vien.html">
-                                <span>Tiếng Việt</span>
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item d-flex align-items-center" href="#">
-                                    Tiếng Anh
-                                </a>
-                            </div>
-                        </div>
-                        <a class="nav-account" href="#">
-                            <span>Tài khoản</span><i class="far fa-user"></i>
-                        </a>
-                        <div class="nav-cart-container">
-                            <a class="cart" href="#">
-                                <span>Giỏ hàng</span><i class="far fa-shopping-cart"></i>
-                            </a>
-                            <span class="count">0</span>
-                        </div>
-                    </div>
-
                 </nav>
-
             </div>
         </div>
     </header>
+
     <section class="banner-main">
         <div class="container">
-            <div class="banner-caption">
-                <h2 class="title">Sách dành riêng cho người mẹ mà bạn yêu quý</h2>
-                <p class="desc">Hãy làm cho Mẹ cảm thấy đặc biệt lạ thường, với một món quà độc đáo như của Mẹ.</p>
-                <a class="btn btn-primary" href="#">Đến cửa hàng</a>
+            <div class="owl-carousel owl-theme owl-banner-main">
+                <div class="item">
+                    <img src="images_test/banner1.jpg" />
+                </div>
+                <div class="item">
+                    <img src="images_test/banner2.jpg" />
+                </div>
+                <div class="item">
+                    <img src="images_test/banner3.jpg" />
+                </div>
             </div>
-
         </div>
     </section>
-    <section class="section-features section-padding">
+
+    <section class="wrap">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="features-item" style="background-image: url(../images_test/features-1.jpg)">
-                        <a class="btn btn-primary" target="_blank" href="#" title="Cá nhân hóa">Cá nhân hóa</a>
-                    </div>
+            <div class="box box-border box-product">
+                <div class="box-header">
+                    <h3 class="box-title">Sản phẩm HOT</h3>
+                    <ul class="nav">
+                        <li><a title="Sofa" href="#">Áo thun</a></li>
+                        <li><a title="Sofa" href="#">Áo sơ mi</a></li>
+                        <li><a title="Sofa" href="#">Quần Short</a></li>
+                        <li><a title="Sofa" href="#">Xem tất cả →</a></li>
+                    </ul>
                 </div>
-                <div class="col-lg-4">
-                    <div class="features-item" style="background-image: url(../images_test/features-2.jpg)">
-                        <a class="btn btn-primary" target="_blank" href="#" title="Cá nhân hóa">Cá nhân hóa</a>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="features-item" style="background-image: url(../images_test/features-3.jpg)">
-                        <a class="btn btn-primary" target="_blank" href="#" title="Cá nhân hóa">Cá nhân hóa</a>
+                <div class="box-body">
+                    <div class="owl-carousel owl-theme owl-theme-nav owl-product">
+                        <div class="item">
+                            <div class="card product-item">
+                                <div class="product-item-img">
+                                    <a class="product-item-img" href="#"><img src="images_test/pro-1.jpg" alt="Product 1"></a>
+                                    <div class="product-item-btn">
+                                        <a class="btn btn-buynow" href="#">Xem ngay</a>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="product-item-title"><a href="#">Hộp Cafe Cao Cấp Chồn Tự Nhiên 250gam</a></h3>
+                                    <div class="product-item-price">
+                                        <p class="price">9.500.000đ <span class="discount">-30%</span></p>
+                                        <p class="old-price">9.000.000đ</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card product-item">
+                                <div class="product-item-img">
+                                    <a class="product-item-img" href="#"><img src="images_test/pro-2.jpg" alt="Product 1"></a>
+                                    <div class="product-item-btn">
+                                        <a class="btn btn-buynow" href="#">Xem ngay</a>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="product-item-title"><a href="#">Cà phê Chồn Mocha Cầu Đất 250gram</a></h3>
+                                    <div class="product-item-price">
+                                        <p class="price">3.300.000đ</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card product-item">
+                                <div class="product-item-img">
+                                    <a class="product-item-img" href="#"><img src="images_test/pro-3.jpg" alt="Product 1"></a>
+                                    <div class="product-item-btn">
+                                        <a class="btn btn-buynow" href="#">Xem ngay</a>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="product-item-title"><a href="#">Cà Phê Chồn Robusta 250gram</a></h3>
+                                    <div class="product-item-price">
+                                        <p class="price">2.400.000đ</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card product-item">
+                                <div class="product-item-img">
+                                    <a class="product-item-img" href="#"><img src="images_test/pro-4.jpg" alt="Product 1"></a>
+                                    <div class="product-item-btn">
+                                        <a class="btn btn-buynow" href="#">Xem ngay</a>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="product-item-title"><a href="#">Cà phê Chồn Cao Cấp Hoàng Gia (200gam)</a></h3>
+                                    <div class="product-item-price">
+                                        <p class="price">1.200.000đ <span class="discount">-50%</span></p>
+                                        <p class="old-price">2.400.000đ</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card product-item">
+                                <div class="product-item-img">
+                                    <a class="product-item-img" href="#"><img src="images_test/pro-1.jpg" alt="Product 1"></a>
+                                    <div class="product-item-btn">
+                                        <a class="btn btn-buynow" href="#">Xem ngay</a>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="product-item-title"><a href="#">Hộp Cafe Cao Cấp Chồn Tự Nhiên 250gam</a></h3>
+                                    <div class="product-item-price">
+                                        <p class="price">9.500.000đ <span class="discount">-30%</span></p>
+                                        <p class="old-price">9.000.000đ</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card product-item">
+                                <div class="product-item-img">
+                                    <a class="product-item-img" href="#"><img src="images_test/pro-2.jpg" alt="Product 1"></a>
+                                    <div class="product-item-btn">
+                                        <a class="btn btn-buynow" href="#">Xem ngay</a>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="product-item-title"><a href="#">Cà phê Chồn Mocha Cầu Đất 250gram</a></h3>
+                                    <div class="product-item-price">
+                                        <p class="price">3.300.000đ</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="section-value-props section-padding">
+
+    <section>
         <div class="container">
-            <div class="row">
-                <div class="col-lg-3">
-                    <div class="value-prop">
-                        <div class="value-prop-thumbnail">
-                            <img src="images_test/star.png" alt="">
-                        </div>
-                        <div class="value-prop-content">
-                            <h4 class="title">Rated 5 stars</h4>
-                            <p class="desc">Trustpilot have rated us as excellent. Hooray!</p>
-                        </div>
+            <div class="box-ads">
+                <div class="ads-list">
+                    <div class="ads-item">
+                        <a class="img-block" href="#"><img src="images_test/banner2.jpg" /></a>
                     </div>
-
-                </div>
-                <div class="col-lg-3">
-                    <div class="value-prop">
-                        <div class="value-prop-thumbnail">
-                            <img src="images_test/dedication.png" alt="">
-                        </div>
-                        <div class="value-prop-content">
-                            <h4 class="title">Free dedication</h4>
-                            <p class="desc">Make it extra personal, with a loving message</p>
-                        </div>
+                    <div class="ads-item">
+                        <a class="img-block" href="#"><img src="images_test/banner3.jpg" /></a>
                     </div>
-
                 </div>
-                <div class="col-lg-3">
-                    <div class="value-prop">
-                        <div class="value-prop-thumbnail">
-                            <img src="images_test/keepsake.png" alt="">
-                        </div>
-                        <div class="value-prop-content">
-                            <h4 class="title">6 million sold</h4>
-                            <p class="desc">Our books have delighted oodles of children</p>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="col-lg-3">
-                    <div class="value-prop">
-                        <div class="value-prop-thumbnail">
-                            <img src="images_test/quality.png" alt="">
-                        </div>
-                        <div class="value-prop-content">
-                            <h4 class="title">97% satisfaction</h4>
-                            <p class="desc">Our customers think we're pretty special!</p>
-                        </div>
-                    </div>
-
-                </div>
-
             </div>
         </div>
     </section>
-    <section class="section-features section-padding">
+
+    <section class="wrap">
         <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Who would you like to make a book for today?</h2>
-            </div>
-            <div class="row">
-                <div class="col-lg-3">
-                    <div class="features-item" style="background-image: url(../images_test/0-3.jpg)">
-                        <div class="info">
-                            <h3 class="title">Từ 0 - 3 tuổi</h3>
-                            <p class="desc">Câu chuyện về tình yêu và học tập</p>
-                        </div>
-                        <a class="btn btn-primary" target="_blank" href="#" title="Cá nhân hóa">Cá nhân hóa</a>
-                    </div>
+            <div class="box box-product">
+                <div class="box-header">
+                    <h3 class="box-title">Cafe thượng hạng</h3>
                 </div>
-                <div class="col-lg-3">
-                    <div class="features-item" style="background-image: url(../images_test/3-6.jpg)">
-                        <div class="info">
-                            <h3 class="title">Từ 3 - 6 tuổi</h3>
-                            <p class="desc">Sách tăng cường trí tưởng tượng</p>
+                <div class="box-body">
+                    <div class="row row-product">
+                        <div class="col-6 col-md-4 col-lg-3 col-product d-flex">
+                            <div class="card product-item">
+                                <div class="product-item-img">
+                                    <a class="product-item-img" href="#"><img src="images_test/pro-1.jpg" alt="Product 1"></a>
+                                    <div class="product-item-btn">
+                                        <a class="btn btn-buynow" href="#">Xem ngay</a>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="product-item-title"><a href="#">0050 - Giao diện Mazda</a></h3>
+                                    <div class="product-item-price">
+                                        <p class="price">9.500.000đ <span class="discount">-30%</span></p>
+                                        <p class="old-price">9.000.000đ</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <a class="btn btn-primary" target="_blank" href="#" title="Cá nhân hóa">Cá nhân hóa</a>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="features-item" style="background-image: url(../images_test/6.jpg)">
-                        <div class="info">
-                            <h3 class="title">Hơn 6 tuổi</h3>
-                            <p class="desc">Sách để phát triển sự tự tin của họ</p>
+                        <div class="col-6 col-md-4 col-lg-3 col-product d-flex">
+                            <div class="card product-item">
+                                <div class="product-item-img">
+                                    <a class="product-item-img" href="#"><img src="images_test/pro-2.jpg" alt="Product 1"></a>
+                                    <div class="product-item-btn">
+                                        <a class="btn btn-buynow" href="#">Xem ngay</a>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="product-item-title"><a href="#">Cà phê Chồn Mocha Cầu Đất 250gram</a></h3>
+                                    <div class="product-item-price">
+                                        <p class="price">3.300.000đ</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <a class="btn btn-primary" target="_blank" href="#" title="Cá nhân hóa">Cá nhân hóa</a>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="features-item" style="background-image: url(../images_test/partial.jpg)">
-                        <div class="info">
-                            <h3 class="title">Lớn lên</h3>
-                            <p class="desc">Quà tặng độc đáo cho những người bạn yêu thích</p>
+                        <div class="col-6 col-md-4 col-lg-3 col-product d-flex">
+                            <div class="card product-item">
+                                <div class="product-item-img">
+                                    <a class="product-item-img" href="#"><img src="images_test/pro-3.jpg" alt="Product 1"></a>
+                                    <div class="product-item-btn">
+                                        <a class="btn btn-buynow" href="#">Xem ngay</a>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="product-item-title"><a href="#">Cà Phê Chồn Robusta 250gram</a></h3>
+                                    <div class="product-item-price">
+                                        <p class="price">2.400.000đ</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <a class="btn btn-primary" target="_blank" href="#" title="Cá nhân hóa">Cá nhân hóa</a>
+                        <div class="col-6 col-md-4 col-lg-3 col-product d-flex">
+                            <div class="card product-item">
+                                <div class="product-item-img">
+                                    <a class="product-item-img" href="#"><img src="images_test/pro-4.jpg" alt="Product 1"></a>
+                                    <div class="product-item-btn">
+                                        <a class="btn btn-buynow" href="#">Xem ngay</a>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="product-item-title"><a href="#">Cà phê Chồn Cao Cấp Hoàng Gia (200gam)</a></h3>
+                                    <div class="product-item-price">
+                                        <p class="price">1.200.000đ <span class="discount">-50%</span></p>
+                                        <p class="old-price">2.400.000đ</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3 col-product d-flex">
+                            <div class="card product-item">
+                                <div class="product-item-img">
+                                    <a class="product-item-img" href="#"><img src="images_test/pro-1.jpg" alt="Product 1"></a>
+                                    <div class="product-item-btn">
+                                        <a class="btn btn-buynow" href="#">Xem ngay</a>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="product-item-title"><a href="#">Hộp Cafe Cao Cấp Chồn Tự Nhiên 250gam</a></h3>
+                                    <div class="product-item-price">
+                                        <p class="price">9.500.000đ <span class="discount">-30%</span></p>
+                                        <p class="old-price">9.000.000đ</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3 col-product d-flex">
+                            <div class="card product-item">
+                                <div class="product-item-img">
+                                    <a class="product-item-img" href="#"><img src="images_test/pro-2.jpg" alt="Product 1"></a>
+                                    <div class="product-item-btn">
+                                        <a class="btn btn-buynow" href="#">Xem ngay</a>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="product-item-title"><a href="#">Cà phê Chồn Mocha Cầu Đất 250gram</a></h3>
+                                    <div class="product-item-price">
+                                        <p class="price">3.300.000đ</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3 col-product d-flex">
+                            <div class="card product-item">
+                                <div class="product-item-img">
+                                    <a class="product-item-img" href="#"><img src="images_test/pro-3.jpg" alt="Product 1"></a>
+                                    <div class="product-item-btn">
+                                        <a class="btn btn-buynow" href="#">Xem ngay</a>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="product-item-title"><a href="#">Cà Phê Chồn Robusta 250gram</a></h3>
+                                    <div class="product-item-price">
+                                        <p class="price">2.400.000đ</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3 col-product d-flex">
+                            <div class="card product-item">
+                                <div class="product-item-img">
+                                    <a class="product-item-img" href="#"><img src="images_test/pro-4.jpg" alt="Product 1"></a>
+                                    <div class="product-item-btn">
+                                        <a class="btn btn-buynow" href="#">Xem ngay</a>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="product-item-title"><a href="#">Cà phê Chồn Cao Cấp Hoàng Gia (200gam)</a></h3>
+                                    <div class="product-item-price">
+                                        <p class="price">1.200.000đ <span class="discount">-50%</span></p>
+                                        <p class="old-price">2.400.000đ</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="section-featured-items">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-7">
-                    <img class="section-featured-items-img" src="images_test/left.jpg" alt="" />
-                </div>
-                <div class="col-lg-5">
-                    <div class="featured-item">
-                        <h3 class="title">Những câu chuyện để nuôi dạy những đứa trẻ tự tin, giàu trí tưởng tượng, yêu sách
-                        </h3>
-                        <p class="desc">
-                            Biến một đứa trẻ thành người hùng trong câu chuyện của chính chúng và nuôi dưỡng trí tưởng tượng, sự tự tin và tình yêu đọc sách của chúng suốt đời.
-                        </p>
-                        <a class="btn btn-outline-secondary">Xem chi tiết</a>
-                    </div>
 
-                </div>
+    <section>
+        <div class="container">
+            <div class="box-ads">
+                <a class="img-block" href="#"><img src="images_test/ads1.jpg" /></a>
             </div>
         </div>
     </section>
-    <section class="section-padding">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">More bestselling personalized books</h2>
-            </div>
-            <div class="row">
-                <div class="col-lg-4">
-                    <a class="product-item" href="#">
-                        <div class="product-header">
-                            <div class="bage" style="background-color: #FFCC37;">
-                                Personalized love book
-                            </div>
-                        </div>
-                        <div class="product-img">
-                            <img src="images_test/generic.png" alt="">
-                        </div>
-                        <div class="product-content">
-                            <h3 class="title">I Love You This Much</h3>
-                            <p class="desc">A story of limitless love, made for up to 4 children.</p>
-                        </div>
-                        <div class="product-footer">
-                            <div class="product-info">
-                                0-3 tuổi
-                            </div>
-                            <div class="product-price">
-                                Từ $34 USD
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4">
-                    <a class="product-item" href="#">
-                        <div class="product-header">
-                            <div class="bage" style="background-color: #F27860;">
-                                Worldwide best seller
-                            </div>
-                        </div>
-                        <div class="product-img">
-                            <img src="images_test/rangepage.png" alt="">
-                        </div>
-                        <div class="product-content">
-                            <h3 class="title">ABC For You</h3>
-                            <p class="desc">Introduce a child to the alphabet, and kickstart their reading journey with the power of personalization. The ABCs will never be boring again!</p>
-                        </div>
-                        <div class="product-footer">
-                            <div class="product-info">
-                                0-3 tuổi
-                            </div>
-                            <div class="product-price">
-                                Từ $34 USD
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4">
-                    <a class="product-item" href="#">
-                        <div class="product-header">
-                            <div class="bage" style="background-color: #F6707B;">
-                                Worldwide best seller
-                            </div>
-                        </div>
-                        <div class="product-img">
-                            <img src="images_test/thumbnail.png" alt="">
-                        </div>
-                        <div class="product-content">
-                            <h3 class="title">A New Sibling For You</h3>
-                            <p class="desc">A heartwarming book about becoming a big brother or sister, written in beautifully reassuring rhyme.</p>
-                        </div>
-                        <div class="product-footer">
-                            <div class="product-info">
-                                0-3 tuổi
-                            </div>
-                            <div class="product-price">
-                                Từ $34 USD
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="section-description section-padding">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Sách và Quà tặng được Cá nhân hóa Tuyệt vời</h2>
-            </div>
-            <div class="row">
-                <div class="detail-content">
-                    <h3 class="text-mega">Who is Wonderbly?</h3>
-                    <p>We’re so glad you asked! Wonderbly is an online personalized children’s book company. Since 2013, our bestselling books have delighted over six million children (and grown-ups!) all over the world. Together, we want to inspire the
-                        next generation of brave, imaginative, book-loving kids – one personalized story at a time.</p>
-                    <h3 class="text-mega">How do I make a personalized book?&nbsp;</h3>
-                    <p>Browse our collection of 30+ <a href="/personalized-products">personalized books</a>, and we’ll put your child right inside the story, making it their own forever more. All you need to do to create a one-in-a-million gift is add your
-                        child’s name, choose their character, and write your heartfelt dedication message. We’ll weave everything together into a unique custom book starring your child, print it on high-quality paper and deliver it straight to your front
-                        door!
-                    </p>
-                    <h3 class="text-mega">How do I place an order with Wonderbly?</h3>
-                    <p>Simply decide which custom book you’d like to create for your child, then add their name, choose the character that looks most like them, and write a personal dedication to make it all your own. Tap the green button, and you’ll be
-                        able to preview your entire book before you buy. Once you’re happy with every detail, enter your payment information and tap the order button. Your personalized book will arrive on your doorstep in 7 to 10 days.
-                    </p>
-                    <h3 class="text-mega">How much are Wonderbly books?&nbsp;</h3>
-                    <p>Our children’s books cost between $5.99 and $29.99, depending on the story and the format you choose to create. We offer our books in an original softcover format with thick, child-friendly pages, and a slightly pricier hardcover format,
-                        which makes for a perfect keepsake. We offer two different shipping options, standard and speedy – speedy is ideal if you need a story in a hurry. It costs a little extra to send your book in one of our glorious gift wraps, or
-                        pop in one of our stupendous sticker packs, but we doubt you’ll regret either one.</p>
-                    <p>The best bit about our pricing? We have different promos running so check out our <a href="/offers">discounts and coupons</a> page to see our latest book offer.</p>
-                    <h3 class="text-mega">Why are your books such splendid gifts?</h3>
-                    <p>We think there’s nothing more wondrous than getting a book with your name on it! We make extra-special personalized <a href="/pages/baby-newborn-books">books for babies</a>, personalised <a href="/pages/our-birthday-books">birthday books</a>,
-                        personalised <a href="/pages/christmas">Christmas books</a>, Father’s Day books, Mother’s Day books – and more!</p>
-                    <h3 class="text-mega">Where is Wonderbly based?</h3>
-                    <p>Wonderbly HQ is a colorful warehouse based in East London, UK. But thanks to the power of the internet, or books are available to buy worldwide! We ship books to over 150 countries across our wonderful planet, but we can’t get them
-                        to the moon. Yet.</p>
-                    <h3 class="text-mega">How do I contact Wonderbly?</h3>
-                    <p>You can easily reach our friendly team of Customer Support Angels easily by:<br> Filling in our
-                        <a href="https://help.wonderbly.com/en/contact">Contact Form</a><br> Emailing us directly at <a href="mailto:hello@wonderbly.com">hello@wonderbly.com</a></p>
-                    <p>Our team of Angels provides personalized support from Monday to Friday, working as quickly as possible to answer all of your questions. If you've not heard back straight away, please don't fret - rest assured, they answer every message
-                        sent!
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="section-value-props section-padding">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Hãy tặng một món quà mà họ sẽ trân trọng mãi mãi</h2>
-            </div>
-            <div class="row">
-                <div class="col-lg-3">
-                    <div class="value-prop">
-                        <div class="value-prop-thumbnail">
-                            <img src="images_test/star.png" alt="">
-                        </div>
-                        <div class="value-prop-content">
-                            <h4 class="title">Rated 5 stars</h4>
-                            <p class="desc">Trustpilot have rated us as excellent. Hooray!</p>
-                        </div>
-                    </div>
 
-                </div>
-                <div class="col-lg-3">
-                    <div class="value-prop">
-                        <div class="value-prop-thumbnail">
-                            <img src="images_test/dedication.png" alt="">
-                        </div>
-                        <div class="value-prop-content">
-                            <h4 class="title">Free dedication</h4>
-                            <p class="desc">Make it extra personal, with a loving message</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="value-prop">
-                        <div class="value-prop-thumbnail">
-                            <img src="images_test/keepsake.png" alt="">
-                        </div>
-                        <div class="value-prop-content">
-                            <h4 class="title">6 million sold</h4>
-                            <p class="desc">Our books have delighted oodles of children</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="value-prop">
-                        <div class="value-prop-thumbnail">
-                            <img src="images_test/quality.png" alt="">
-                        </div>
-                        <div class="value-prop-content">
-                            <h4 class="title">97% satisfaction</h4>
-                            <p class="desc">Our customers think we're pretty special!</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="section-form section-padding">
+    <section class="wrap">
         <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Nhận thêm nhiều ý tưởng thông minh và cập nhật hấp dẫn</h2>
-            </div>
-            <div class="form-sign-up">
-                <div class="container-fluid p-0">
+            <div class="box box-border box-news-special">
+                <div class="box-body">
+                    <div class="news-item-special">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div class="news-item-img">
+                                    <a href="#"><img alt="" src="images_test/news1.jpg" /></a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 d-flex align-items-stretch">
+                                <div class="news-item-body">
+                                    <h5 class="news-item-title"><a href="#">Bị đau thắt lưng nặng, bạn vẫn có thể tận hưởng chuyện ấy</a></h5>
+                                    <p class="news-item-desc">Những cơn đau thắt lưng nặng có thể khiến bạn không còn mặn mà với chuyện chăn gối và dần trở nên xa cách với nửa kia.</p>
+                                    <a class="btn-continue" href="#">Đọc tiếp →</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="row">
-                        <div class="col-12 col-lg-6">
-                            <input class="form-control" value="" placeholder="Nhập email của bạn...">
+                        <div class="col-6 col-lg-3 d-flex align-items-stretch">
+                            <div class="card news-item-vertical">
+                                <div class="news-item-img">
+                                    <a href="#"><img alt="" src="images_test/news1.jpg"></a>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="news-item-title"><a href="#">Nổi mụn mọc mụn ở sau vành tai quanh vùng tai nên làm gì</a></h5>
+                                    <a class="btn-continue" href="#">Đọc tiếp →</a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-12 col-lg-6">
-                            <a class="btn btn-outline-primary" href="">Đăng ký</a>
+                        <div class="col-6 col-lg-3 d-flex align-items-stretch">
+                            <div class="card news-item-vertical">
+                                <div class="news-item-img">
+                                    <a href="#"><img alt="" src="images_test/news2.jpg"></a>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="news-item-title"><a href="#">Vì sao bị viêm lỗ chân lông ở lưng và cách trị hiệu quả tốt nhất</a></h5>
+                                    <a class="btn-continue" href="#">Đọc tiếp →</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-3 d-flex align-items-stretch">
+                            <div class="card news-item-vertical">
+                                <div class="news-item-img">
+                                    <a href="#"><img alt="" src="images_test/news3.jpg"></a>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="news-item-title"><a href="#">Nên uống thuốc trị thâm mụn ở lưng của Nhật loại nào tốt nhất</a></h5>
+                                    <a class="btn-continue" href="#">Đọc tiếp →</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-3 d-flex align-items-stretch">
+                            <div class="card news-item-vertical">
+                                <div class="news-item-img">
+                                    <a href="#"><img alt="" src="images_test/news4.jpg"></a>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="news-item-title"><a href="#">Trị nám bằng khoai tây đông đá tại nhà có hết không</a></h5>
+                                    <a class="btn-continue" href="#">Đọc tiếp →</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
-    <footer>
-        <div class="footer">
-            <div class="container">
-                <div class="row flex-wrap-reverse flex-lg-wrap">
-                    <div class="col-md-6 col-lg-3">
-                        <h4 class="f-title">Wonderbly</h4>
-                        <ul class="f-list">
-                            <li class="f-link">
-                                <a href="#" title="">Về chúng tôi</a>
-                            </li>
-                            <li class="f-link">
-                                <a href="#" title="">Tuyển dụng</a>
-                            </li>
-                            <li class="f-link">
-                                <a href="#" title="">Ưu đãi</a>
-                            </li>
-                            <li class="f-link">
-                                <a href="#" title="">Chương trình liên kết</a>
-                            </li>
-                            <li class="f-link">
-                                <a href="#" title="">Nhận phần thưởng</a>
-                            </li>
-                        </ul>
+
+    <section class="wrap">
+        <div class="container">
+            <div class="box box-border box-news">
+                <div class="box-header">
+                    <h3 class="box-title">Tin tức mới</h3>
+                </div>
+                <div class="box-body">
+                    <div class="owl-carousel owl-theme owl-theme-nav owl-news">
+                        <div class="item">
+                            <div class="card news-item-vertical">
+                                <div class="news-item-img">
+                                    <a href="#"><img alt="" src="images_test/news1.jpg"></a>
+                                </div>
+                                <div class="card-body">
+                                    <p class="news-item-time"><i class="fa fa-clock"></i>Thứ 6, 19/10/2019</p>
+                                    <h5 class="news-item-title"><a href="#">Nổi mụn mọc mụn ở sau vành tai quanh vùng tai nên làm gì</a></h5>
+                                    <a class="btn-continue" href="#">Đọc tiếp →</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card news-item-vertical">
+                                <div class="news-item-img">
+                                    <a href="#"><img alt="" src="images_test/news2.jpg"></a>
+                                </div>
+                                <div class="card-body">
+                                    <p class="news-item-time"><i class="fa fa-clock"></i>Thứ 6, 19/10/2019</p>
+                                    <h5 class="news-item-title"><a href="#">Vì sao bị viêm lỗ chân lông ở lưng và cách trị hiệu quả tốt nhất</a></h5>
+                                    <a class="btn-continue" href="#">Đọc tiếp →</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card news-item-vertical">
+                                <div class="news-item-img">
+                                    <a href="#"><img alt="" src="images_test/news3.jpg"></a>
+                                </div>
+                                <div class="card-body">
+                                    <p class="news-item-time"><i class="fa fa-clock"></i>Thứ 6, 19/10/2019</p>
+                                    <h5 class="news-item-title"><a href="#">Nên uống thuốc trị thâm mụn ở lưng của Nhật loại nào tốt nhất</a></h5>
+                                    <a class="btn-continue" href="#">Đọc tiếp →</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card news-item-vertical">
+                                <div class="news-item-img">
+                                    <a href="#"><img alt="" src="images_test/news4.jpg"></a>
+                                </div>
+                                <div class="card-body">
+                                    <p class="news-item-time"><i class="fa fa-clock"></i>Thứ 6, 19/10/2019</p>
+                                    <h5 class="news-item-title"><a href="#">Trị nám bằng khoai tây đông đá tại nhà có hết không</a></h5>
+                                    <a class="btn-continue" href="#">Đọc tiếp →</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card news-item-vertical">
+                                <div class="news-item-img">
+                                    <a href="#"><img alt="" src="images_test/news5.jpg"></a>
+                                </div>
+                                <div class="card-body">
+                                    <p class="news-item-time"><i class="fa fa-clock"></i>Thứ 6, 19/10/2019</p>
+                                    <h5 class="news-item-title"><a href="#">Có nên trị nám da bằng thuốc bắc không</a></h5>
+                                    <a class="btn-continue" href="#">Đọc tiếp →</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card news-item-vertical">
+                                <div class="news-item-img">
+                                    <a href="#"><img alt="" src="images_test/news6.jpg"></a>
+                                </div>
+                                <div class="card-body">
+                                    <p class="news-item-time"><i class="fa fa-clock"></i>Thứ 6, 19/10/2019</p>
+                                    <h5 class="news-item-title"><a href="#">Bắn tàn nhang có để lại sẹo không, khoảng bao lâu thì bong vảy</a></h5>
+                                    <a class="btn-continue" href="#">Đọc tiếp →</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-6 col-lg-3">
-                        <h4 class="f-title">Cửa hàng</h4>
-                        <ul class="f-list">
-                            <li class="f-link">
-                                <a href="#" title="">Tất cả sách được cá nhân hóa</a>
-                            </li>
-                            <li class="f-link">
-                                <a href="#" title="">World of Lost My NameBestseller</a>
-                            </li>
-                            <li class="f-link">
-                                <a href="#" title="">World of Where Are You</a>
-                            </li>
-                            <li class="f-link">
-                                <a href="#" title="">Books for babies & newborn</a>
-                            </li>
-                            <li class="f-link">
-                                <a href="#" title="">Books for toddlers</a>
-                            </li>
-                            <li class="f-link">
-                                <a href="#" title="">Books for children ages 3-6</a>
-                            </li>
-                            <li class="f-link">
-                                <a href="#" title="">Books for children ages 6+</a>
-                            </li>
-                            <li class="f-link">
-                                <a href="#" title="">First Steps For You</a>
-                            </li>
-                            <li class="f-link">
-                                <a href="#" title="">Christmas books</a>
-                            </li>
-                            <li class="f-link">
-                                <a href="#" title="">Activity books for kids</a>
-                            </li>
-                            <li class="f-link">
-                                <a href="#" title="">Mother's day books</a>
-                            </li>
-                            <li class="f-link">
-                                <a href="#" title="">Father's day books</a>
-                            </li>
-                            <li class="f-link">
-                                <a href="#" title="">Birthday books</a>
-                            </li>
-                            <li class="f-link">
-                                <a href="#" title="">Personalized books for adults</a>
-                            </li>
-                            <li class="f-link">
-                                <a href="#" title="">Valentine's day books</a>
-                            </li>
-                            <li class="f-link">
-                                <a href="#" title="">Books for siblings</a>
-                            </li>
-                        </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="wrap">
+        <div class="container">
+            <div class="box box-border box-news">
+                <div class="box-header">
+                    <h3 class="box-title">Tin tức HOT</h3>
+                </div>
+                <div class="box-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card news-item-vertical">
+                                <div class="news-item-img">
+                                    <a href="#"><img alt="" src="images_test/news1.jpg" /></a>
+                                </div>
+                                <div class="card-body">
+                                    <p class="news-item-time"><i class="fa fa-clock"></i>Thứ 6, 19/10/2019</p>
+                                    <h5 class="news-item-title"><a href="#">Bị đau thắt lưng nặng, bạn vẫn có thể tận hưởng chuyện ấy</a></h5>
+                                    <p class="news-item-desc">Những cơn đau thắt lưng nặng có thể khiến bạn không còn mặn mà với chuyện chăn gối và dần trở nên xa cách với nửa kia.</p>
+                                    <a class="btn-continue" href="#">Đọc tiếp →</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="media news-item-right">
+                                <div class="news-item-img">
+                                    <a href="#"><img alt="" src="images_test/news2.jpg" /></a>
+                                </div>
+                                <div class="media-body">
+                                    <h5 class="news-item-title"><a href="#"><span class="news-item-icon new">NEW</span>Nguyên nhân và phương pháp điều trị rụng tóc ở phụ nữ</a></h5>
+                                </div>
+                            </div>
+                            <div class="media news-item-right">
+                                <div class="news-item-img">
+                                    <a href="#"><img alt="" src="images_test/news3.jpg" /></a>
+                                </div>
+                                <div class="media-body">
+                                    <h5 class="news-item-title"><a href="#">Chế độ ăn GAPS có thật sự tốt cho ruột và não bộ?</a></h5>
+                                </div>
+                            </div>
+                            <div class="media news-item-right">
+                                <div class="news-item-img">
+                                    <a href="#"><img alt="" src="images_test/news4.jpg" /></a>
+                                </div>
+                                <div class="media-body">
+                                    <h5 class="news-item-title"><a href="#"><span class="news-item-icon hot">HOT</span>10 lợi ích không ngờ của massage tuina đối với sức khỏe</a></h5>
+                                </div>
+                            </div>
+                            <div class="media news-item-right">
+                                <div class="news-item-img">
+                                    <a href="#"><img alt="" src="images_test/news5.jpg" /></a>
+                                </div>
+                                <div class="media-body">
+                                    <h5 class="news-item-title"><a href="#">Vi khuẩn đường ruột của bạn nói gì về bạn?</a></h5>
+                                </div>
+                            </div>
+                            <div class="media news-item-right">
+                                <div class="news-item-img">
+                                    <a href="#"><img alt="" src="images_test/news6.jpg" /></a>
+                                </div>
+                                <div class="media-body">
+                                    <h5 class="news-item-title"><a href="#">Giảm cân theo chế độ ăn Keto sẽ khiến bạn rụng tóc?</a></h5>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-6 col-lg-3">
-                        <h4 class="f-title">Hỗ trợ</h4>
-                        <ul class="f-list">
-                            <li class="f-link">
-                                <a href="#" title="">Liên hệ</a>
-                            </li>
-                            <li class="f-link">
-                                <a href="#" title="">Thông tin giao hàng</a>
-                            </li>
-                            <li class="f-link">
-                                <a href="#" title="">Chính sách trả hàng</a>
-                            </li>
-                            <li class="f-link">
-                                <a href="#" title="">Chính sách bảo mật</a>
-                            </li>
-                            <li class="f-link">
-                                <a href="#" title="">Điều khoản và Điều kiện</a>
-                            </li>
-                            <li class="f-link">
-                                <a href="#" title="">Sitemap</a>
-                            </li>
-                        </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="footer-block">
+                        <h3 class="footer-block-title">CTY TNHH TM và DV HUYỀN THOẠI VIỆT</h3>
+                        <div class="footer-contact">
+                            <div class="media">
+                                <div class="footer-contact-icon">
+                                    <i class="fa fa-phone">&nbsp;</i>
+                                </div>
+                                <div class="media-body">
+                                    <p class="footer-contact-title">Gọi mua hàng</p>
+                                    <p class="footer-contact-text"><a href="tel:0838377877" title="Gọi ngay">0838.377.877 - 0938.377.877</a></p>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <div class="footer-contact-icon">
+                                    <i class="fa fa-email">&nbsp;</i>
+                                </div>
+                                <div class="media-body">
+                                    <p class="footer-contact-title">Email</p>
+                                    <p class="footer-contact-text"><a href="mailto:huyenthoaiviet.com.vn@gmail.com" title="Gửi mail cho chúng tôi">huyenthoaiviet.com.vn@gmail.com</a></p>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <div class="footer-contact-icon">
+                                    <i class="fa fa-map">&nbsp;</i>
+                                </div>
+                                <div class="media-body">
+                                    <p class="footer-contact-title">Địa chỉ</p>
+                                    <p class="footer-contact-text">TPHCM: 238/11 Bạch Đằng, P. 24, Q. Bình Thạnh, TP.HCM</p>
+                                    <p class="footer-contact-text">Hà Nội: Số 33 Ngõ 89 Lạc Long Quân,Q. Cầu Giấy, Hà Nội</p>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <div class="footer-contact-icon">
+                                    <i class="fa fa-clock">&nbsp;</i>
+                                </div>
+                                <div class="media-body">
+                                    <p class="footer-contact-title">Giờ mở cửa</p>
+                                    <p class="footer-contact-text">Thứ 2 - Thứ 7: 08:00 – 17h30</p>
+                                    <p class="footer-contact-text">Chủ nhật và Ngày Lễ: Nghỉ</p>
+                                    <p class="footer-contact-text"><strong>Ngoài giờ liên hệ: 0938.377.877</strong></p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div class="payment-icons">
-                            <img src="images/visa.png" class="payment-icon" alt="">
-                            <img src="images/mastercard.png" class="payment-icon" alt="">
-                            <img src="images/paypal.png" class="payment-icon" alt="">
+                </div>
+                <div class="col-lg-7">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <div class="footer-block">
+                                <h3 class="footer-block-title">Hỗ trợ khách hàng</h3>
+                                <ul class="footer-list">
+                                    <li><a href="#">Hướng dẫn mua hàng</a></li>
+                                    <li><a href="#">Hướng dẫn thanh toán</a></li>
+                                    <li><a href="#">Chính sách đổi trả</a></li>
+                                    <li><a href="#">Chính sách bảo mật</a></li>
+                                    <li><a href="#">Liên hệ với chúng tôi</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="footer-block">
+                                <h3 class="footer-block-title">Kết Nối Với Chúng Tôi</h3>
+                                <div class="footer-fanpage">
+                                    <div class="fb-page" data-adapt-container-width="true" data-height="" data-hide-cover="false" data-href="https://www.facebook.com/CaPheChonHuyenThoaiViet/" data-show-facepile="true" data-small-header="false" data-tabs="" data-width="400">
+                                        <blockquote cite="https://www.facebook.com/CaPheChonHuyenThoaiViet/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/CaPheChonHuyenThoaiViet/">Cà phê Chồn Huyền Thoại Việt</a></blockquote>
+                                    </div>
+                                </div>
+                                <ul class="social">
+                                    <li><a class="facebook" href="https://www.facebook.com/CaPheChonHuyenThoaiViet/"><i class="fa fa-facebook">&nbsp;</i></a></li>
+                                    <li><a class="instagram" href="#"><i class="fa fa-instagram">&nbsp;</i></a></li>
+                                    <li><a class="youtube" href="#"><i class="fa fa-youtube">&nbsp;</i></a></li>
+                                    <li><a class="pinterest" href="#"><i class="fa fa-pinterest">&nbsp;</i></a></li>
+                                    <li><a class="twitter" href="#"><i class="fa fa-twitter">&nbsp;</i></a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="copyright">
-            <div class="container">
-                <ul class="copyright-list">
-                    <li>
-                        <a href="#" title="">Terms & Conditions</a>
-                    </li>
-                    <li>
-                        <a href="#" title="">Privacy Policy</a>
-                    </li>
-                    <li>
-                        30-36 Pritchard's Rd, London E2 9AP
-                    </li>
-                    <li>
-                        Lostmy.name Ltd (trading as Wonderbly, Reg Co. Number 08305498)
-                    </li>
-                </ul>
-            </div>
+            <p>Copyright © 2020 Huyền Thoại Việt. All rights reserved</p>
         </div>
     </footer>
+    <div class="bg-overlay" data-toggle="collapse" data-target="#navbarSupportedContent"></div>
+    <p id="back-top"><a href="javascript:void();" title="Scroll To Top"><i class="fa fa-arrow-up"></i></a></p>
+    <a href="tel:0838377877" class="phone-ring"><span class="phone-circle"><i class="fa fa-phone animation"></i></span><span class="phone-text">Tư vấn mua hàng: 0838.377.877</span></a>
+    <a href="https://zalo.me/0838377877" class="phone-zalo"><i class="fa-zalo animation"></i></a>
+    <div class="modal fade modal-book" id="modal-book" tabindex="-1" role="dialog" aria-labelledby="modal-book" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <a class="close" data-dismiss="modal" aria-label="Close"></a>
+                    <div class="modal-left">
+                        <p class="modal-logo"><img src="https://dieutrimundrhue.com/resources/images/logo-book.png" /></p>
+                        <div class="modal-hotline">
+                            <a href="tel:1900636654">1900.636.654</a>
+                            <p>Tư vấn trực tiếp 24/7</p>
+                        </div>
+                    </div>
+                    <div class="modal-right">
+                        <h5 class="modal-title">Đặt lịch chăm sóc da</h5>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Họ và Tên (Bắt buộc)" id="txtHoTenPopup" name="txtHoTenPopup">
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Điện thoại (Bắt buộc)" id="txtDienThoaiPopup" name="txtDienThoaiPopup">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Email" id="txtEmailPopup" name="txtEmailPopup">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" placeholder="Dịch vụ bạn quan tâm" cols="10" rows="3" id="txtNoiDungPopup" name="txtNoiDungPopup"></textarea>
+                        </div>
+                        <div class="text-center">
+                            <a class="btn btn-default" href="javascript:javascript:sendBooking('txtHoTenPopup','txtDienThoaiPopup','txtEmailPopup','','txtNoiDungPopup');" title="Đặt lịch ngay">ĐẶT LỊCH NGAY</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        function OpenModalBook() {
+            $('#modal-book').modal('show');
+        }
+        $(document).ready(function () {
+            $('.owl-banner-main').owlCarousel({
+                loop: true,
+                items: 1,
+                margin: 0,
+                dots: true,
+                autoplay: true,
+                autoplayTimeout: 5000,
+                nav: true,
+                navText: ["", ""],
+                responsive: {
+                    0: { nav: false },
+                    768: { nav: false },
+                    1000: { nav: true }
+                }
+            });
+            $('.owl-brands').owlCarousel({
+                loop: true,
+                items: 2,
+                margin: 10,
+                dots: true,
+                autoplay: true,
+                autoplayTimeout: 5000,
+                nav: false,
+                navText: ["", ""],
+                responsive: {
+                    0: { items: 2 },
+                    768: { items: 4 },
+                    1000: { items: 5 }
+                }
+            });
+            $('.owl-news').owlCarousel({
+                loop: true,
+                items: 3,
+                margin: 10,
+                dots: false,
+                autoplay: false,
+                autoplayTimeout: 5000,
+                nav: true,
+                navText: ["", ""],
+                responsive: {
+                    0: { items: 1 },
+                    768: { items: 2 },
+                    1000: { items: 3, margin: 20 }
+                }
+            });
 
-    <!-- Luôn phải có. Dùng để tạo lớp mờ khi mở menu ở mobile -->
-    <div class="bg-overlay navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"> </div>
-
-    <p id="back-top">
-        <a href="javascript:void();" title="Scroll To Top">
-            <i class="fal fa-angle-up"></i>
-        </a>
-    </p>
-
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="js/main.min.js"></script>
-    <script>
-        $(document).ready(function() {
-
-
+            $('.owl-product').owlCarousel({
+                loop: true,
+                items: 4,
+                margin: 10,
+                dots: false,
+                autoplay: false,
+                autoplayTimeout: 5000,
+                nav: true,
+                navText: ["", ""],
+                responsive: {
+                    0: { items: 2 },
+                    768: { items: 3 },
+                    1000: { items: 4, margin: 20 }
+                }
+            });
         });
     </script>
-
 </body>
-
 </html>

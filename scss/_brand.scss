@@ -1,0 +1,45 @@
+/*===== BRAND =====*/
+.logo {
+  width: 25%;
+  -ms-flex-order: 1;
+  order: 1;
+}
+.brands {
+  background-color: #fff;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+  margin-bottom: var(--margin-bottom);
+}
+.brand-logo {
+  display: block;
+  text-align: center;
+}
+.brand-logo img {
+  max-width: 100%;
+}
+.brand-logo:hover {
+  opacity: 0.9;
+}
+
+@media (max-width: 1366px){
+ 
+}
+ 
+@media (max-width: 991px){ 
+    .logo{
+        display:block;
+        z-index:99;
+    }
+}
+ 
+@media (max-width: 768px){
+    
+}
+ 
+@media (max-width: 575px) {
+  
+}
+
+@media (max-width: 375px) {
+     
+}
