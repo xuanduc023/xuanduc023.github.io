@@ -359,8 +359,7 @@
 .product-option-list.color .container-radio input:checked ~ .checkmark::before{ 
   position: absolute;
   top: 0px;
-  left: 0px;
-  width: 25px;
+  left: 0px; 
   height: 100%;
   content: "";
   display: block;
