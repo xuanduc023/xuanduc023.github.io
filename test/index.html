@@ -21,6 +21,25 @@
             margin: 0px;
             width: 100%;
         }
+
+
+        /* Demo */
+        #adm-inpage-h .desktop{
+                display: block;
+        }
+        #adm-inpage-h .mobile{
+            display: none;
+        }
+
+        @media (max-width: 992px){
+            #adm-inpage-h .desktop{
+                display: none;
+            }
+            #adm-inpage-h .mobile{
+                display: block;
+            }
+        }
+       
     </style>
 </head>
 
@@ -170,7 +189,7 @@
  
     <script>
         $(document).ready(function () {
-            $adsinpagefullscreen.renderHtml("<a href='https://dailyxe.com.vn/'><img src='vingroup-phu-quoc.gif' alt='Images'/></a>");
+            $adsinpagefullscreen.renderHtml('<a href="https://dailyxe.com.vn/"><img class="desktop" src="ads-desktop.gif" alt="Images"/><img class="mobile" src="vingroup-phu-quoc.gif" alt="Images"/></a>');
         })
     </script>
 </body>
