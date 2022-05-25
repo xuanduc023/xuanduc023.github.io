@@ -1,608 +1,178 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="vi">
 
 <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Detail News - DOGI</title>
+    <!-- core CSS -->
+    <link href="css/library.min.css" rel="stylesheet">
+    <link href="css/style.min.css" rel="stylesheet">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css"
-        integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
+    <script src="js/jquery.min.js"></script>  
 
-    <title>Hello, world!</title>
+    <script src="js/inpagefullscreen.js"></script>
+    <link rel="shortcut icon" href="images/favico.png">
 
-    <link rel="stylesheet" href="dailyxe.min.css">
+    <style>
+        #admbg-adm img{
+            margin: 0px;
+            width: 100%;
+        }
+    </style>
 </head>
 
-<body>
-    <div class="detail-news box-border">
-        <h1 class="detail-news-title">Lexus RC F Track Edition 2020 có động cơ 5.0L, BMW M4 nên dè chừng</h1>
-        <div class="detail-news-posted start-social-fixed d-flex align-items-center">
-            <div class="d-flex flex-column mr-auto">
-                <span class="author"><a title="Xem các bài viết của Trần Xuân Đức"
-                        href="https://dailyxe.com.vn/author/tran-xuan-duc-9a.html"><i
-                            class="far fa-user-circle"></i>Trần Xuân Đức</a></span>
-                <span class="time">12-02-2019 16:40</span>
-            </div>
-
-
-
-            <div class="feature-control">
-                <div class="feature-control-item favorite ng-scope" ng-controller="favorite-link as ctrl"
-                    ng-init="ctrl.checkFavoriteLink('')">
-                    <a class="feature-control-icon " href="javascript:void(0)" title="Lưu xem sau"
-                        ng-click="addFavorite(9,'Lexus RC F Track Edition 2020 có động cơ 5.0L, BMW M4 nên dè chừng', '')">
-                        <i class="far fa-star mr-0"></i>
-                    </a>
-                </div>
-                <div class="feature-control-item feature-font-size ng-scope" ng-controller="font-size-content as ctrl">
-                    <a class="feature-control-icon dropdown" title="Thay đổi kích thước chữ" id="dropdownMenuButton"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <i class="icon icon-font-size"></i>
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <!-- ngRepeat: item in size --><a ng-repeat="item in size" class="dropdown-item small "
-                            style="font-size:13px" title="13px" ng-click="setFontSize(item.size)"
-                            href="javascript:void(0)"><i class="fas fa-font"></i>Chữ nhỏ</a>
-                        <!-- end ngRepeat: item in size --><a ng-repeat="item in size"
-                            class="dropdown-item small active" style="font-size:15px" title="15px"
-                            ng-click="setFontSize(item.size)" href="javascript:void(0)"><i class="fas fa-font"></i>Chữ
-                            vừa</a><!-- end ngRepeat: item in size --><a ng-repeat="item in size"
-                            class="dropdown-item small " style="font-size:20px" title="20px"
-                            ng-click="setFontSize(item.size)" href="javascript:void(0)"><i class="fas fa-font"></i>Chữ
-                            lớn</a><!-- end ngRepeat: item in size -->
+<body>  
+    <section class="wrap">
+        <div class="article">
+            <div class="article-banner" style="background-image:url(https://cdn.tgdd.vn/Files/2019/10/26/1212493/cover_1280x388.jpg)">
+                <div class="article-header">
+                    <h1 class="article-title">Những điều cần biết khi sử dụng màu xanh xám cho căn nhà của bạn</h1>
+                    <div class="d-flex align-items-center article-meta">
+                        <span class="author"><i class="fa fa-user"></i> Tác giả: <a href="#">Lê Thái Nguyên</a></span>
+                        <span class="author"><i class="fa fa-user"></i> Tham vấn: <a href="#">Lê Thái Nguyên</a></span>
+                        <span class="updated-time"> 19/05/2019</span>
                     </div>
                 </div>
-                <div class="feature-control-item favorite">
-                    <a class="feature-control-icon" title="Chia sẻ"
-                        href="javascript:socialShareDesktop('https://dailyxe.com.vn/tin-tuc/lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-5445d.html', 'Lexus RC F Track Edition 2020 có động cơ 5.0L, BMW M4 nên dè chừng', 437202924732568222)">
-                        <i class="fas fa-share-alt"></i>
-                    </a>
+            </div>
+            <div class="article-header">
+                <h1 class="article-title">Những điều cần biết khi sử dụng màu xanh xám cho căn nhà của bạn</h1>
+                <div class="d-flex align-items-center article-meta">
+                    <span class="author"><i class="fa fa-user"></i> Tác giả: <a href="#">Lê Thái Nguyên</a></span>
+                    <span class="author"><i class="fa fa-user"></i> Tham vấn: <a href="#">Lê Thái Nguyên</a></span>
+                    <span class="updated-time"> 19/05/2019</span>
                 </div>
             </div>
+            <div class="article-wrap" >
+                <div class="article-body detail-content" id="qcbody">
 
-        </div>
-        <div class="detail-news-body detail-content clearfix abody" id="abody" style="font-size: 17px;">
-            <h2>Chỉ là dòng xe thể thao cỡ trung nhưng Lexus RC F Track Edition 2020 được trang bị động cơ dung tích lớn
-                - V8 5.0L, khiến các đối thủ BMW M4 và Mercedes-AMG C 63 phải dè chừng.</h2>
+                    <h2>Bạn nghĩ rằng chỉ trẻ em mới cần da tiếp da để tăng cường sức khỏe? Thật ra, người trưởng thành như chúng ta cũng rất cần chạm vào nhau để giảm bớt căng thẳng, suy nghĩ tích cực hơn và đẩy lùi cảm giác mệt mỏi sau một ngày dài vất vả đấy!</h2>
 
-            <figure class="figure fluid"><a data-fancybox="gallery"
-                    href="https://cdn.dailyxe.com.vn/image/lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-1-57743j.jpg"><img
-                        alt="lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-1.jpg"
-                        class="figure-img img-replaced lazy-loading-image loaded"
-                        src="https://cdn.dailyxe.com.vn/image/lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-1-57743j.jpg"
-                        title="lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-1.jpg"><noscript><img
-                            alt="lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-1.jpg"
-                            class="figure-img fanciedbox img-replaced noscript"
-                            src="https://cdn.dailyxe.com.vn/image/lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-1-57743j.jpg"
-                            title="lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-1.jpg"></noscript></a>
-            </figure>
 
-            <p>Sau Detroit, Chicago là nơi tiếp theo chào đón ngôi sao sáng thứ 2 của Lexus - chiếc RC F Track Edition
-                2020, bên cạnh LC 500 Inspiration Series. Sau khi ra mắt, Lexus RC F Track Edition sẽ nhắm đến các đối
-                thủ như BMW M4, Audi RS5 và Mercedes-AMG C 63.</p>
+                    <p>Những lần da tiếp da không chỉ cải thiện mối quan hệ xã hội mà còn rất có ích cho sức khỏe tinh thần và thể chất. Bạn hãy thử nắm tay, ôm hôn và chạm vào người thân để cảm thấy hạnh phúc và khỏe mạnh hơn. Hello Bacsi chia sẻ những lợi ích tuyệt vời khi bạn da tiếp da với một ai đó mà mình yêu thương nhé!</p>
 
-            <figure class="figure fluid"><a data-fancybox="gallery"
-                    href="https://cdn.dailyxe.com.vn/image/lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-2-57746j.jpg"><img
-                        alt="lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-2.jpg"
-                        class="figure-img img-replaced lazy-loading-image loaded"
-                        src="https://cdn.dailyxe.com.vn/image/lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-2-57746j.jpg"
-                        title="lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-2.jpg"><noscript><img
-                            alt="lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-2.jpg"
-                            class="figure-img fanciedbox img-replaced noscript"
-                            src="https://cdn.dailyxe.com.vn/image/lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-2-57746j.jpg"
-                            title="lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-2.jpg"></noscript></a>
-            </figure>
+                    <p style="text-align:center;"><img src="https://cdn.tgdd.vn/Files/2019/10/26/1212577/dsc03738_1280x720-800-resize.jpg" /></p>
 
-            <p>Lexus RC F Track Edition sở hữu nhiều chi tiết bằng carbon như nắp ca-pô, mui xe, cánh gió và bộ quây khí
-                động học ở đuôi xe nên phiên bản đường đua này nhẹ hơn RC F tiêu chuẩn đến 80 kg. Phiên bản này còn sở
-                hữu ống xả và bộ phận giảm thanh bằng titanium, cho âm thanh đanh và to hơn.</p>
+                    <div class="zippy-container">
+                        <a aria-controls="collapsezippy" aria-expanded="true" class="zippy-title" data-toggle="collapse" href="#collapsezippy">Nội dung chính trong bài: </a>
 
-            <figure class="figure fluid"><a data-fancybox="gallery"
-                    href="https://cdn.dailyxe.com.vn/image/lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-3-57742j.jpg"><img
-                        alt="lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-3.jpg"
-                        class="figure-img img-replaced lazy-loading-image loaded"
-                        src="https://cdn.dailyxe.com.vn/image/lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-3-57742j.jpg"
-                        title="lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-3.jpg"><noscript><img
-                            alt="lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-3.jpg"
-                            class="figure-img fanciedbox img-replaced noscript"
-                            src="https://cdn.dailyxe.com.vn/image/lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-3-57742j.jpg"
-                            title="lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-3.jpg"></noscript></a>
-            </figure>
+                        <div class="zippy-content collapse show" id="collapsezippy">
+                            <ol>
+                                <li><a href="#goto1">Da tiếp da giúp giảm căng thẳng</a></li>
+                                <li><a href="#goto2">Da tiếp da giúp bạn suy nghĩ tích cực</a></li>
+                                <li><a href="#goto3">Da tiếp da giúp tăng cường hệ miễn dịch</a></li>
+                                <li><a href="#goto4">Da tiếp da giúp bạn giảm cơn đau</a></li>
+                            </ol>
+                        </div>
+                    </div>
 
-            <p>Bên cạnh đó, đĩa phanh tiêu chuẩn được thay bằng đĩa phanh carbon-ceramic hàng hiệu đến từ Brembo, đi kèm
-                là kẹp phanh đỏ thể thao. Cánh gió sau bằng carbon cung cấp thêm lực ép tương đương 26 kg lên mặt đường.
-            </p>
+                    <h3 id="goto1">1. Da tiếp da giúp giảm căng thẳng (Nên chọn thẻ h2 hoặc h3)</h3>
+                    <p>Những đụng chạm vật lý giúp tăng nồng độ dopamine và serotonin, hai chất dẫn truyền thần kinh giúp điều chỉnh tâm trạng cũng như giảm căng thẳng và lo lắng. Một nghiên cứu trên các bệnh nhân ung thư vú cho thấy liệu pháp massage bao gồm các hình thức da tiếp da khác nhau giúp tăng mức độ dopamine và serotonin ở bệnh nhân. Từ đó, người bệnh sẽ cảm thấy bớt căng thẳng hơn.</p>
 
-            <figure class="figure fluid"><a data-fancybox="gallery"
-                    href="https://cdn.dailyxe.com.vn/image/lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-4-57741j.jpg"><img
-                        alt="lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-4.jpg"
-                        class="figure-img img-replaced lazy-loading-image"
-                        src="https://cdn.dailyxe.com.vn/image/lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-4-57741j.jpg?q=1"
-                        title="lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-4.jpg"
-                        data-src="https://cdn.dailyxe.com.vn/image/lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-4-57741j.jpg"><noscript><img
-                            alt="lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-4.jpg"
-                            class="figure-img fanciedbox img-replaced noscript"
-                            src="https://cdn.dailyxe.com.vn/image/lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-4-57741j.jpg"
-                            title="lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-4.jpg"></noscript></a>
-            </figure>
+                    <p style="text-align:center;"><img src="https://cdn.tgdd.vn/Files/2019/10/26/1212493/vivoy1121of38_800x450_800x450.jpg" /></p>
+                    <p class="caption">Màn hình Vivo Y11 theo xu hướng chung với "giọt nước" trên đỉnh máy.</p>
 
-            <p>Phiên bản đường đua của Lexus RC F có sẵn 2 màu ngoại thất là trắng Ultra White và xám Nebula. Đi kèm với
-                hệ thống phanh hiệu suất cao là bộ vành 19 inch BBS và bộ lốp Michelin Pilot Sport 4S. Riêng hệ thống
-                phanh và bộ vành đã tiết kiệm cho RC F Track Edition đến 25 kg.</p>
+                    <h2 class="head-highlight">BẮT ĐẦU DEMO FORMAT CONTENT ĐỈNH CAO<br /><span style="color:#0094ff;">BY CEO NGUYÊN</span></h2>
 
-            <figure class="figure fluid"><a data-fancybox="gallery"
-                    href="https://cdn.dailyxe.com.vn/image/lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-5-57745j.jpg"><img
-                        alt="lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-5.jpg"
-                        class="figure-img img-replaced lazy-loading-image"
-                        src="https://cdn.dailyxe.com.vn/image/lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-5-57745j.jpg?q=1"
-                        title="lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-5.jpg"
-                        data-src="https://cdn.dailyxe.com.vn/image/lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-5-57745j.jpg"><noscript><img
-                            alt="lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-5.jpg"
-                            class="figure-img fanciedbox img-replaced noscript"
-                            src="https://cdn.dailyxe.com.vn/image/lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-5-57745j.jpg"
-                            title="lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-5.jpg"></noscript></a>
-            </figure>
+                    <p style="font-weight:bold;">[Demo] - Danh sách ul, li:</p>
+                    <ul>
+                        <li>Những đụng chạm vật lý giúp tăng nồng độ dopamine và serotonin, hai chất dẫn truyền thần kinh giúp điều chỉnh tâm trạng cũng như giảm căng thẳng và lo lắng</li>
+                        <li>Nguyen 2</li>
+                        <li>Nguyen 3</li>
+                        <li>Nguyen 4</li>
+                    </ul>
 
-            <p>Bên trong, nội thất xe được phủ bởi da màu đỏ thể thao, các ghế ngồi bọc da Alcantara và một số chi tiết
-                bằng sợi carbon.</p>
+                    <p style="font-weight:bold;">[Demo] - Danh sách ol, li:</p>
+                    <ol>
+                        <li>Những đụng chạm vật lý giúp tăng nồng độ dopamine và serotonin, hai chất dẫn truyền thần kinh giúp điều chỉnh tâm trạng cũng như giảm căng thẳng và lo lắng</li>
+                        <li>Nguyen 2</li>
+                        <li>Nguyen 3</li>
+                        <li>Nguyen 4</li>
+                    </ol>
 
-            <figure class="figure fluid"><a data-fancybox="gallery"
-                    href="https://cdn.dailyxe.com.vn/image/lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-6-57748j.jpg"><img
-                        alt="lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-6.jpg"
-                        class="figure-img img-replaced lazy-loading-image"
-                        src="https://cdn.dailyxe.com.vn/image/lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-6-57748j.jpg?q=1"
-                        title="lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-6.jpg"
-                        data-src="https://cdn.dailyxe.com.vn/image/lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-6-57748j.jpg"><noscript><img
-                            alt="lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-6.jpg"
-                            class="figure-img fanciedbox img-replaced noscript"
-                            src="https://cdn.dailyxe.com.vn/image/lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-6-57748j.jpg"
-                            title="lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-6.jpg"></noscript></a>
-            </figure>
+                    <p style="font-weight:bold;">[Demo] - Link trong bài viết:</p>
+                    <p class="link-more">Xem thêm: <a href="https://webkhoedep.net/song-khoe/" target="_blank" title="Bí quyết sống khỏe mỗi ngày">Bí quyết sống khỏe mỗi ngày</a></p>
 
-            <p>Là mẫu xe thuần thể thao nhưng RC F Track Edition vẫn được Lexus quan tâm đến sự sang trọng. Vô-lăng, ghế
-                ngồi mang đến cảm giác cao cấp hơn là thể thao. Trên bảng táp-lô còn xuất hiện một đồng hồ nhỏ, đặc điểm
-                thường thấy trên xe sang hơn là xe thể thao.</p>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Qdb1ZondoLY" allowfullscreen></iframe>
+                    </div>
 
-            <figure class="figure fluid"><a data-fancybox="gallery"
-                    href="https://cdn.dailyxe.com.vn/image/lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-7-57747j.jpg"><img
-                        alt="lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-7.jpg"
-                        class="figure-img img-replaced lazy-loading-image"
-                        src="https://cdn.dailyxe.com.vn/image/lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-7-57747j.jpg?q=1"
-                        title="lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-7.jpg"
-                        data-src="https://cdn.dailyxe.com.vn/image/lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-7-57747j.jpg"><noscript><img
-                            alt="lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-7.jpg"
-                            class="figure-img fanciedbox img-replaced noscript"
-                            src="https://cdn.dailyxe.com.vn/image/lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-7-57747j.jpg"
-                            title="lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-7.jpg"></noscript></a>
-            </figure>
+                    <p style="font-weight:bold;">[Demo] - Ghi chú Blockquote:</p>
+                    <blockquote>
+                        <p>Đảm bảo: Tất cả màu xe hợp tuổi Ất Sửu 1985 này đã được các thầy phong thủy sử dụng học thuyết màu sắc phong thủy và mệnh, can chi nên bạn có thể an tâm về độ chính xác</p>
+                    </blockquote>
 
-            <p>Cung cấp sức mạnh cho RC F Track Edition là động cơ hút khí tự nhiên V8 5.0L sản sinh công suất 472 mã
-                lực (352 kW) và mô-men xoắn 536 Nm tương tự trên RC F tiêu chuẩn. Đi kèm với động cơ là hộp số tự động 8
-                cấp. Kết hợp với công nghệ kiểm soát khởi động Launch Control, RC F Track Edition tăng tốc 0-100 km/h
-                trong thời gian dưới 4 giây.</p>
+                    <blockquote class="bq-info">
+                        <p>Đảm bảo: Tất cả màu xe hợp tuổi Ất Sửu 1985 này đã được các thầy phong thủy sử dụng học thuyết màu sắc phong thủy và mệnh, can chi nên bạn có thể an tâm về độ chính xác</p>
+                    </blockquote>
 
-            <figure class="figure fluid"><a data-fancybox="gallery"
-                    href="https://cdn.dailyxe.com.vn/image/lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-8-57744j.jpg"><img
-                        alt="lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-8.jpg"
-                        class="figure-img img-replaced lazy-loading-image"
-                        src="https://cdn.dailyxe.com.vn/image/lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-8-57744j.jpg?q=1"
-                        title="lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-8.jpg"
-                        data-src="https://cdn.dailyxe.com.vn/image/lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-8-57744j.jpg"><noscript><img
-                            alt="lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-8.jpg"
-                            class="figure-img fanciedbox img-replaced noscript"
-                            src="https://cdn.dailyxe.com.vn/image/lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-8-57744j.jpg"
-                            title="lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-8.jpg"></noscript></a>
-            </figure>
+                    <blockquote class="bq-warning">
+                        <p>Đảm bảo: Tất cả màu xe hợp tuổi Ất Sửu 1985 này đã được các thầy phong thủy sử dụng học thuyết màu sắc phong thủy và mệnh, can chi nên bạn có thể an tâm về độ chính xác</p>
+                    </blockquote>
 
-            <p>Lexus sẽ chính thức bán ra RC F Track Edition 2020 từ mùa hè tới với mức giá chưa được tiết lộ.</p>
+                    <blockquote class="bq-question">
+                        <p>Đảm bảo: Tất cả màu xe hợp tuổi Ất Sửu 1985 này đã được các thầy phong thủy sử dụng học thuyết màu sắc phong thủy và mệnh, can chi nên bạn có thể an tâm về độ chính xác</p>
+                    </blockquote>
 
-            <p class="text-right end-social-fixed">Nguồn: Zing.vn</p>
-        </div>
-        <div class="call-to-like">
-            <img class="img-title" alt="call-to-like"
-                src="/Resources/images/call-to-like.png?v=eur8C7tS__h-ds51IisYsNUG7JhrlgTCSUvRB5yasxE">
-            <div class="fb-like fb_iframe_widget"
-                data-href="https://dailyxe.com.vn/tin-tuc/lexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-5445d.html"
-                data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"
-                fb-xfbml-state="rendered"
-                fb-iframe-plugin-query="action=like&amp;app_id=264237830704171&amp;container_width=0&amp;href=https%3A%2F%2Fdailyxe.com.vn%2Ftin-tuc%2Flexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-5445d.html&amp;layout=button_count&amp;locale=vi_VN&amp;sdk=joey&amp;share=true&amp;show_faces=true&amp;size=small">
-                <span style="vertical-align: bottom; width: 122px; height: 20px;"><iframe name="f3270010a69cc9"
-                        width="1000px" height="1000px" frameborder="0" allowtransparency="true" allowfullscreen="true"
-                        scrolling="no" allow="encrypted-media" title="fb:like Facebook Social Plugin"
-                        src="https://www.facebook.com/v2.9/plugins/like.php?action=like&amp;app_id=264237830704171&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2Fvy-MhgbfL4v.js%3Fversion%3D44%23cb%3Df289294d1834078%26domain%3Ddailyxe.com.vn%26origin%3Dhttps%253A%252F%252Fdailyxe.com.vn%252Ff3e70beb34ceb44%26relation%3Dparent.parent&amp;container_width=0&amp;href=https%3A%2F%2Fdailyxe.com.vn%2Ftin-tuc%2Flexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-5445d.html&amp;layout=button_count&amp;locale=vi_VN&amp;sdk=joey&amp;share=true&amp;show_faces=true&amp;size=small"
-                        style="border: none; visibility: visible; width: 122px; height: 20px;" class=""></iframe></span>
-            </div>
-            <div class="google-plusone">
-                <div id="___plusone_0"
-                    style="text-indent: 0px; margin: 0px; padding: 0px; background: transparent; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 38px; height: 24px;">
-                    <iframe ng-non-bindable="" frameborder="0" hspace="0" marginheight="0" marginwidth="0"
-                        scrolling="no"
-                        style="position: static; top: 0px; width: 38px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 24px;"
-                        tabindex="0" vspace="0" width="100%" id="I0_1549966103272" name="I0_1549966103272"
-                        src="https://apis.google.com/u/0/se/0/_/+1/fastbutton?usegapi=1&amp;annotation=inline&amp;width=50&amp;hl=vi&amp;origin=https%3A%2F%2Fdailyxe.com.vn&amp;url=https%3A%2F%2Fdailyxe.com.vn%2Ftin-tuc%2Flexus-rc-f-track-edition-2020-co-dong-co-50l-bmw-m4-nen-de-chung-5445d.html&amp;gsrc=3p&amp;ic=1&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.vi.7D6WE4ySCoQ.O%2Fam%3DwQ%2Frt%3Dj%2Fd%3D1%2Frs%3DAGLTcCNAcKmn_yTdPChO1eCDW6mgMBvJ7g%2Fm%3D__features__#_methods=onPlusOne%2C_ready%2C_close%2C_open%2C_resizeMe%2C_renderstart%2Concircled%2Cdrefresh%2Cerefresh%2Conload&amp;id=I0_1549966103272&amp;_gfid=I0_1549966103272&amp;parent=https%3A%2F%2Fdailyxe.com.vn&amp;pfname=&amp;rpctoken=23722024"
-                        data-gapiattached="true" title="G+"></iframe></div>
+                    <p style="font-weight:bold;">[Demo] - Timeline:</p>
+                    <ul class="timeline">
+                        <li>
+                            <span class="timeline-title">Bước 1:</span>
+                            <p>Bạn cần cung cấp đầy đủ hồ sơ và những giấy tờ mà ngân hàng yêu cầu.</p>
+                        </li>
+                        <li>
+                            <span class="timeline-title">Bước 2:</span>
+                            <p>Ngân hàng sẽ tiến hành thẩm định hồ sơ mà Bạn cung cấp. Nếu hồ sơ Bạn được ngân hàng duyệt cho vay thì ngân hàng sẽ thông báo bảo lãnh khoản vay. Bạn sẽ nộp bảo lãnh và 1 khoản tiền đối ứng cho đại lý bán xe ô tô.</p>
+                        </li>
+                        <li>
+                            <span class="timeline-title">Bước 3:</span>
+                            <p>Đại lý bán xe ô tô sẽ xuất hóa đơn và gửi hồ sơ cho Bạn để đi làm thủ tục nộp thuế trước bạ, bấm biển số, đăng kiểm.</p>
+                        </li>
+                        <li>
+                            <span class="timeline-title">Bước 4:</span>
+                            <p>Khi đã nhận được biển số xe và bản gốc giấy đăng ký xe thì Bạn cần lên ngân hàng để ký hợp đồng tín dụng. Sau đó đóng những khoản phí liên quan, tiến hành đi công chứng giấy tờ, ký vào giấy nhận nợ từ ngân hàng (chữ ký của cả vợ và chồng; nếu người vay là công ty thì phải ký tên người đại diện công ty vay và đóng con dấu xác nhận của công ty). Khi hoàn thành các bước trên thì lúc này ngân hàng sẽ cấp cho Bạn bản sao giấy đăng ký xe và chuyển tiền cho đại lý bán xe ô tô.</p>
+                        </li>
+                        <li>
+                            <span class="timeline-title">Bước 5:</span>
+                            <p>Khi đại lý xe ô tô nhận được tiền từ ngân hàng, Bạn đến nhận xe ô tô và hoàn tất giao dịch</p>
+                        </li>
+                    </ul>
+
+                    <p style="font-weight:bold;">[Demo] - Ghi chú dưới hình ảnh:</p>
+                    <p style="text-align:center;"><img src="https://cdn.tgdd.vn/Files/2019/10/26/1212493/vivo-y11-2_800x449_800x449.jpg" /></p>
+                    <p class="caption">Thiết kế Vivo Y11 khá đẹp trong phân khúc, tuy nhiên mặt lưng bị bám vân tay vì thế nên sử dụng ốp lưng tặng kèm trong hộp.</p>
+                </div>
+
+                <div class="article-resource">
+                    <a aria-controls="collapseresource" aria-expanded="true" class="resource-title collapsed" data-toggle="collapse" href="#collapseresource">Nguồn tham khảo: </a>
+                    <div class="resource-content collapse" id="collapseresource">
+                        <ul>
+                            <li><a href="#">Da tiếp da giúp giảm căng thẳng</a><span>(Ngày truy cập: 28-11-2019)</span></li>
+                            <li><a href="#">Da tiếp da giúp bạn suy nghĩ tích cực</a><span>(Ngày truy cập: 29-11-2019)</span></li>
+                            <li><a href="#">Da tiếp da giúp tăng cường hệ miễn dịch</a><span>(Ngày truy cập: 30-11-2019)</span></li>
+                            <li><a href="#">Da tiếp da giúp bạn giảm cơn đau</a><span>(Ngày truy cập: 30-11-2019)</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="article-tags list-tags">
+                    <span><i class="fa fa-tags"></i>Từ khóa:</span>
+                    <a href="#">Đầm dự tiệc</a>
+                    <a href="#">Đầm dạ hội</a>
+                    <a href="#">Đầm đẹp</a>
+                    <a href="#">Đầm hot girl</a>
+                </div>
             </div>
         </div>
+    </section>
 
-        <div class="news-list collaborate_1" style="margin-top:15px">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="page-heading">
-                        <h3 class="page-heading-title">Đọc thêm</h3>
-                    </div>
-                </div>
-                <div class="news col-sm-6">
-                    <div class="media">
-                        <a class="news-img" target="_self" title="Lexus RC lột xác với phiên bản 'báo đen'"
-                            href="https://dailyxe.com.vn/tin-tuc/lexus-rc-lot-xac-voi-phien-ban-bao-den-4051d.html">
-                            <img src="https://cdn.dailyxe.com.vn/image/lexus-rc-lot-xac-voi-phien-ban-bao-den-34402j2.jpg"
-                                alt="Lexus RC lột xác với phiên bản 'báo đen'" data-pin-nopin="true">
-                        </a>
-                        <div class="media-body">
-                            <h3 class="news-title"><a target="_self" title="Lexus RC lột xác với phiên bản 'báo đen'"
-                                    href="https://dailyxe.com.vn/tin-tuc/lexus-rc-lot-xac-voi-phien-ban-bao-den-4051d.html">Lexus
-                                    RC lột xác với phiên bản 'báo đen'</a></h3>
-                            <p class="news-posted">
-                                <span class="origin"><a title="Zing.vn"
-                                        href="https://dailyxe.com.vn/zing.vn-tin-tuc-hinh-anh-moi-nhat-ve-cac-loai-xe-oto-9w.html">Zing.vn</a></span>
-                                <span><i class="fa fa-calendar-o"></i>06-04-2018</span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="news col-sm-6">
-                    <div class="media">
-                        <a class="news-img" target="_self"
-                            title="Phiên bản đặc biệt Lexus RC 300h F Sport Black Edition sẽ ra mắt tại Geneva 2018"
-                            href="https://dailyxe.com.vn/tin-tuc/phien-ban-dac-biet-lexus-rc-300h-f-sport-black-edition-se-ra-mat-tai-geneva-2018-3991d.html">
-                            <img src="https://cdn.dailyxe.com.vn/image/phien-ban-dac-biet-lexus-rc-300h-f-sport-black-edition-se-ra-mat-tai-geneva-2018-33242j2.jpg"
-                                alt="Phiên bản đặc biệt Lexus RC 300h F Sport Black Edition sẽ ra mắt tại Geneva 2018"
-                                data-pin-nopin="true">
-                        </a>
-                        <div class="media-body">
-                            <h3 class="news-title"><a target="_self"
-                                    title="Phiên bản đặc biệt Lexus RC 300h F Sport Black Edition sẽ ra mắt tại Geneva 2018"
-                                    href="https://dailyxe.com.vn/tin-tuc/phien-ban-dac-biet-lexus-rc-300h-f-sport-black-edition-se-ra-mat-tai-geneva-2018-3991d.html">Phiên
-                                    bản đặc biệt Lexus RC 300h F Sport Black Edition sẽ ra mắt tại Geneva 2018</a></h3>
-                            <p class="news-posted">
-                                <span class="origin"><a title="XeHay"
-                                        href="https://dailyxe.com.vn/xehay.vn-chuyen-trang-thong-tin-danh-gia-oto-xe-may-5w.html">XeHay</a></span>
-                                <span><i class="fa fa-calendar-o"></i>02-04-2018</span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="news col-sm-6">
-                    <div class="media">
-                        <a class="news-img" target="_self"
-                            title="Lexus RC F Sport Black Line sẽ được giới thiệu tại Triển lãm New York 2018"
-                            href="https://dailyxe.com.vn/tin-tuc/lexus-rc-f-sport-black-line-se-duoc-gioi-thieu-tai-trien-lam-new-york-2018-3742d.html">
-                            <img src="https://cdn.dailyxe.com.vn/image/lexus-rc-f-sport-black-line-se-duoc-gioi-thieu-tai-trien-lam-new-york-2018-30874j2.jpg"
-                                alt="Lexus RC F Sport Black Line sẽ được giới thiệu tại Triển lãm New York 2018"
-                                data-pin-nopin="true">
-                        </a>
-                        <div class="media-body">
-                            <h3 class="news-title"><a target="_self"
-                                    title="Lexus RC F Sport Black Line sẽ được giới thiệu tại Triển lãm New York 2018"
-                                    href="https://dailyxe.com.vn/tin-tuc/lexus-rc-f-sport-black-line-se-duoc-gioi-thieu-tai-trien-lam-new-york-2018-3742d.html">Lexus
-                                    RC F Sport Black Line sẽ được giới thiệu tại Triển lãm New York 2018</a></h3>
-                            <p class="news-posted">
-                                <span class="origin"><a title="XeHay"
-                                        href="https://dailyxe.com.vn/xehay.vn-chuyen-trang-thong-tin-danh-gia-oto-xe-may-5w.html">XeHay</a></span>
-                                <span><i class="fa fa-calendar-o"></i>18-03-2018</span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="news col-sm-6">
-                    <div class="media">
-                        <a class="news-img" target="_self" title="Audi RS5 Coupe 2017 độ động cơ cực mạnh"
-                            href="https://dailyxe.com.vn/tin-tuc/audi-rs5-coupe-2017-do-dong-co-cuc-manh-1499d.html">
-                            <img src="https://cdn.dailyxe.com.vn/image/audi-rs5-coupe-2017-do-dong-co-cuc-manh-14117j2.jpg"
-                                alt="Audi RS5 Coupe 2017 độ động cơ cực mạnh" data-pin-nopin="true">
-                        </a>
-                        <div class="media-body">
-                            <h3 class="news-title"><a target="_self" title="Audi RS5 Coupe 2017 độ động cơ cực mạnh"
-                                    href="https://dailyxe.com.vn/tin-tuc/audi-rs5-coupe-2017-do-dong-co-cuc-manh-1499d.html">Audi
-                                    RS5 Coupe 2017 "độ" động cơ cực mạnh</a></h3>
-                            <p class="news-posted">
-                                <span class="origin"><a title="Autodaily"
-                                        href="https://dailyxe.com.vn/autodaily.vn-chuyen-trang-thong-tin-dien-tu-ve-oto-xe-may-10w.html">Autodaily</a></span>
-                                <span><i class="fa fa-calendar-o"></i>16-08-2017</span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="news col-sm-6">
-                    <div class="media">
-                        <a class="news-img" target="_self" title="Lexus RC 2018 nâng cấp động cơ, tăng thêm 5 mã lực"
-                            href="https://dailyxe.com.vn/tin-tuc/lexus-rc-2018-nang-cap-dong-co-tang-them-5-ma-luc-2215d.html">
-                            <img src="https://cdn.dailyxe.com.vn/image/lexus-rc-2018-nang-cap-dong-co-tang-them-5-ma-luc-19135j2.jpg"
-                                alt="Lexus RC 2018 nâng cấp động cơ, tăng thêm 5 mã lực" data-pin-nopin="true">
-                        </a>
-                        <div class="media-body">
-                            <h3 class="news-title"><a target="_self"
-                                    title="Lexus RC 2018 nâng cấp động cơ, tăng thêm 5 mã lực"
-                                    href="https://dailyxe.com.vn/tin-tuc/lexus-rc-2018-nang-cap-dong-co-tang-them-5-ma-luc-2215d.html">Lexus
-                                    RC 2018 nâng cấp động cơ, tăng thêm 5 mã lực</a></h3>
-                            <p class="news-posted">
-                                <span class="origin"><a title="Zing.vn"
-                                        href="https://dailyxe.com.vn/zing.vn-tin-tuc-hinh-anh-moi-nhat-ve-cac-loai-xe-oto-9w.html">Zing.vn</a></span>
-                                <span><i class="fa fa-calendar-o"></i>29-09-2017</span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="news col-sm-6">
-                    <div class="media">
-                        <a class="news-img" target="_self"
-                            title="Lexus RC nhận được khá ít cải tiến cho phiên bản năm 2018"
-                            href="https://dailyxe.com.vn/tin-tuc/lexus-rc-nhan-duoc-kha-it-cai-tien-cho-phien-ban-nam-2018-2321d.html">
-                            <img src="https://cdn.dailyxe.com.vn/image/lexus-rc-nhan-duoc-kha-it-cai-tien-cho-phien-ban-nam-2018-19965j2.jpg"
-                                alt="Lexus RC nhận được khá ít cải tiến cho phiên bản năm 2018" data-pin-nopin="true">
-                        </a>
-                        <div class="media-body">
-                            <h3 class="news-title"><a target="_self"
-                                    title="Lexus RC nhận được khá ít cải tiến cho phiên bản năm 2018"
-                                    href="https://dailyxe.com.vn/tin-tuc/lexus-rc-nhan-duoc-kha-it-cai-tien-cho-phien-ban-nam-2018-2321d.html">Lexus
-                                    RC nhận được khá ít cải tiến cho phiên bản năm 2018</a></h3>
-                            <p class="news-posted">
-                                <span class="origin"><a title="XeHay"
-                                        href="https://dailyxe.com.vn/xehay.vn-chuyen-trang-thong-tin-danh-gia-oto-xe-may-5w.html">XeHay</a></span>
-                                <span><i class="fa fa-calendar-o"></i>16-10-2017</span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="news col-sm-6">
-                    <div class="media">
-                        <a class="news-img" target="_self"
-                            title="BMW Concept M8 Gran Coupe - Mercedes-AMG GT 4 cửa nên dè chừng"
-                            href="https://dailyxe.com.vn/tin-tuc/bmw-concept-m8-gran-coupe-mercedesamg-gt-4-cua-nen-de-chung-3816d.html">
-                            <img src="https://cdn.dailyxe.com.vn/image/bmw-concept-m8-gran-coupe-mercedesamg-gt-4-cua-nen-de-chung-31530j2.jpg"
-                                alt="BMW Concept M8 Gran Coupe - Mercedes-AMG GT 4 cửa nên dè chừng"
-                                data-pin-nopin="true">
-                        </a>
-                        <div class="media-body">
-                            <h3 class="news-title"><a target="_self"
-                                    title="BMW Concept M8 Gran Coupe - Mercedes-AMG GT 4 cửa nên dè chừng"
-                                    href="https://dailyxe.com.vn/tin-tuc/bmw-concept-m8-gran-coupe-mercedesamg-gt-4-cua-nen-de-chung-3816d.html">BMW
-                                    Concept M8 Gran Coupe - Mercedes-AMG GT 4 cửa nên dè chừng</a></h3>
-                            <p class="news-posted">
-                                <span class="origin"><a title="Zing.vn"
-                                        href="https://dailyxe.com.vn/zing.vn-tin-tuc-hinh-anh-moi-nhat-ve-cac-loai-xe-oto-9w.html">Zing.vn</a></span>
-                                <span><i class="fa fa-calendar-o"></i>20-03-2018</span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="news col-sm-6">
-                    <div class="media">
-                        <a class="news-img" target="_self" title="Lexus chật vật tìm chỗ đứng ở châu Âu"
-                            href="https://dailyxe.com.vn/tin-tuc/lexus-chat-vat-tim-cho-dung-o-chau-au-619d.html">
-                            <img src="https://cdn.dailyxe.com.vn/image/lexus-chat-vat-tim-cho-dung-o-chau-au-6022j2.jpg"
-                                alt="Lexus chật vật tìm chỗ đứng ở châu Âu" data-pin-nopin="true">
-                        </a>
-                        <div class="media-body">
-                            <h3 class="news-title"><a target="_self" title="Lexus chật vật tìm chỗ đứng ở châu Âu"
-                                    href="https://dailyxe.com.vn/tin-tuc/lexus-chat-vat-tim-cho-dung-o-chau-au-619d.html">Lexus
-                                    chật vật tìm chỗ đứng ở châu Âu</a></h3>
-                            <p class="news-posted">
-                                <span class="origin"><a title="Zing.vn"
-                                        href="https://dailyxe.com.vn/zing.vn-tin-tuc-hinh-anh-moi-nhat-ve-cac-loai-xe-oto-9w.html">Zing.vn</a></span>
-                                <span><i class="fa fa-calendar-o"></i>04-08-2017</span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="news col-sm-6">
-                    <div class="media">
-                        <a class="news-img" target="_self" title="Ngắm BMW M4 Speed Yellow độc đáo tại Abu Dhabi"
-                            href="https://dailyxe.com.vn/tin-tuc/ngam-bmw-m4-speed-yellow-doc-dao-tai-abu-dhabi-4077d.html">
-                            <img src="https://cdn.dailyxe.com.vn/image/ngam-bmw-m4-speed-yellow-doc-dao-tai-abu-dhabi-34576j2.jpg"
-                                alt="Ngắm BMW M4 Speed Yellow độc đáo tại Abu Dhabi" data-pin-nopin="true">
-                        </a>
-                        <div class="media-body">
-                            <h3 class="news-title"><a target="_self"
-                                    title="Ngắm BMW M4 Speed Yellow độc đáo tại Abu Dhabi"
-                                    href="https://dailyxe.com.vn/tin-tuc/ngam-bmw-m4-speed-yellow-doc-dao-tai-abu-dhabi-4077d.html">Ngắm
-                                    BMW M4 Speed Yellow độc đáo tại Abu Dhabi</a></h3>
-                            <p class="news-posted">
-                                <span class="origin"><a title="XeHay"
-                                        href="https://dailyxe.com.vn/xehay.vn-chuyen-trang-thong-tin-danh-gia-oto-xe-may-5w.html">XeHay</a></span>
-                                <span><i class="fa fa-calendar-o"></i>09-04-2018</span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="news col-sm-6">
-                    <div class="media">
-                        <a class="news-img" target="_self"
-                            title="Lexus GS F thế hệ mới sẽ sở hữu động cơ tăng áp kép V8 4.0L"
-                            href="https://dailyxe.com.vn/tin-tuc/lexus-gs-f-the-he-moi-se-so-huu-dong-co-tang-ap-kep-v8-40l-892d.html">
-                            <img src="https://cdn.dailyxe.com.vn/image/lexus-gs-f-the-he-moi-se-so-huu-dong-co-tang-ap-kep-v8-40l-8016j2.jpg"
-                                alt="Lexus GS F thế hệ mới sẽ sở hữu động cơ tăng áp kép V8 4.0L" data-pin-nopin="true">
-                        </a>
-                        <div class="media-body">
-                            <h3 class="news-title"><a target="_self"
-                                    title="Lexus GS F thế hệ mới sẽ sở hữu động cơ tăng áp kép V8 4.0L"
-                                    href="https://dailyxe.com.vn/tin-tuc/lexus-gs-f-the-he-moi-se-so-huu-dong-co-tang-ap-kep-v8-40l-892d.html">Lexus
-                                    GS F thế hệ mới sẽ sở hữu động cơ tăng áp kép V8 4.0L</a></h3>
-                            <p class="news-posted">
-                                <span class="origin"><a title="XeHay"
-                                        href="https://dailyxe.com.vn/xehay.vn-chuyen-trang-thong-tin-danh-gia-oto-xe-may-5w.html">XeHay</a></span>
-                                <span><i class="fa fa-calendar-o"></i>04-08-2017</span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="news col-sm-6">
-                    <div class="media">
-                        <a class="news-img" target="_self" title="BMW M4 lạ lẫm với phiên bản kỷ niệm"
-                            href="https://dailyxe.com.vn/tin-tuc/bmw-m4-la-lam-voi-phien-ban-ky-niem-3662d.html">
-                            <img src="https://cdn.dailyxe.com.vn/image/bmw-m4-la-lam-voi-phien-ban-ky-niem-30330j2.jpg"
-                                alt="BMW M4 lạ lẫm với phiên bản kỷ niệm" data-pin-nopin="true">
-                        </a>
-                        <div class="media-body">
-                            <h3 class="news-title"><a target="_self" title="BMW M4 lạ lẫm với phiên bản kỷ niệm"
-                                    href="https://dailyxe.com.vn/tin-tuc/bmw-m4-la-lam-voi-phien-ban-ky-niem-3662d.html">BMW
-                                    M4 lạ lẫm với phiên bản kỷ niệm</a></h3>
-                            <p class="news-posted">
-                                <span class="origin"><a title="Zing.vn"
-                                        href="https://dailyxe.com.vn/zing.vn-tin-tuc-hinh-anh-moi-nhat-ve-cac-loai-xe-oto-9w.html">Zing.vn</a></span>
-                                <span><i class="fa fa-calendar-o"></i>28-02-2018</span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="news col-sm-6">
-                    <div class="media">
-                        <a class="news-img" target="_self"
-                            title="Lexus kỷ niệm 10 năm cho ra đời dòng xe F hiệu suất cao bằng một chiếc LFA  đặc biệt"
-                            href="https://dailyxe.com.vn/tin-tuc/lexus-ky-niem-10-nam-cho-ra-doi-dong-xe-f-hieu-suat-cao-bang-mot-chiec-lfa-dac-biet-4610d.html">
-                            <img src="https://cdn.dailyxe.com.vn/image/lexus-ky-niem-10-nam-cho-ra-doi-dong-xe-f-hieu-suat-cao-bang-mot-chiec-lfa-dac-biet-41748j2.jpg"
-                                alt="Lexus kỷ niệm 10 năm cho ra đời dòng xe F hiệu suất cao bằng một chiếc LFA  đặc biệt"
-                                data-pin-nopin="true">
-                        </a>
-                        <div class="media-body">
-                            <h3 class="news-title"><a target="_self"
-                                    title="Lexus kỷ niệm 10 năm cho ra đời dòng xe F hiệu suất cao bằng một chiếc LFA  đặc biệt"
-                                    href="https://dailyxe.com.vn/tin-tuc/lexus-ky-niem-10-nam-cho-ra-doi-dong-xe-f-hieu-suat-cao-bang-mot-chiec-lfa-dac-biet-4610d.html">Lexus
-                                    kỷ niệm 10 năm cho ra đời dòng xe F hiệu suất cao bằng một chiếc LFA đặc biệt</a>
-                            </h3>
-                            <p class="news-posted">
-                                <span class="origin"><a title="XeHay"
-                                        href="https://dailyxe.com.vn/xehay.vn-chuyen-trang-thong-tin-danh-gia-oto-xe-may-5w.html">XeHay</a></span>
-                                <span><i class="fa fa-calendar-o"></i>27-07-2018</span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="news col-sm-6">
-                    <div class="media">
-                        <a class="news-img" target="_self"
-                            title="Chevrolet Silverado 2019 lộ diện, Ford F-150 phải dè chừng"
-                            href="https://dailyxe.com.vn/tin-tuc/chevrolet-silverado-2019-lo-dien-ford-f150-phai-de-chung-3554d.html">
-                            <img src="https://cdn.dailyxe.com.vn/image/chevrolet-silverado-2019-lo-dien-ford-f150-phai-de-chung-29484j2.jpg"
-                                alt="Chevrolet Silverado 2019 lộ diện, Ford F-150 phải dè chừng" data-pin-nopin="true">
-                        </a>
-                        <div class="media-body">
-                            <h3 class="news-title"><a target="_self"
-                                    title="Chevrolet Silverado 2019 lộ diện, Ford F-150 phải dè chừng"
-                                    href="https://dailyxe.com.vn/tin-tuc/chevrolet-silverado-2019-lo-dien-ford-f150-phai-de-chung-3554d.html">Chevrolet
-                                    Silverado 2019 lộ diện, Ford F-150 phải dè chừng</a></h3>
-                            <p class="news-posted">
-                                <span class="origin"><a title="Otosaigon"
-                                        href="https://dailyxe.com.vn/otosaigon.com-cong-dong-oto-viet-nam-the-gioi-xe-hoi-oto-bon-banh-4w.html">Otosaigon</a></span>
-                                <span><i class="fa fa-calendar-o"></i>24-02-2018</span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="news col-sm-6">
-                    <div class="media">
-                        <a class="news-img" target="_self"
-                            title="Xuất hiện một phiên bản lạ của Lexus LS tự tin dạo phố"
-                            href="https://dailyxe.com.vn/tin-tuc/xuat-hien-mot-phien-ban-la-cua-lexus-ls-tu-tin-dao-pho-1180d.html">
-                            <img src="https://cdn.dailyxe.com.vn/image/xuat-hien-mot-phien-ban-la-cua-lexus-ls-tu-tin-dao-pho-10381j2.jpg"
-                                alt="Xuất hiện một phiên bản lạ của Lexus LS tự tin dạo phố" data-pin-nopin="true">
-                        </a>
-                        <div class="media-body">
-                            <h3 class="news-title"><a target="_self"
-                                    title="Xuất hiện một phiên bản lạ của Lexus LS tự tin dạo phố"
-                                    href="https://dailyxe.com.vn/tin-tuc/xuat-hien-mot-phien-ban-la-cua-lexus-ls-tu-tin-dao-pho-1180d.html">Xuất
-                                    hiện một phiên bản "lạ" của Lexus LS "tự tin dạo phố"</a></h3>
-                            <p class="news-posted">
-                                <span class="origin"><a title="XeHay"
-                                        href="https://dailyxe.com.vn/xehay.vn-chuyen-trang-thong-tin-danh-gia-oto-xe-may-5w.html">XeHay</a></span>
-                                <span><i class="fa fa-calendar-o"></i>11-08-2017</span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="news col-sm-6">
-                    <div class="media">
-                        <a class="news-img" target="_self"
-                            title="BMW M2 nâng cấp với gói độ Dinan, thay tăng áp, Intercooler, tăng công suất lên 446 mã lực"
-                            href="https://dailyxe.com.vn/tin-tuc/bmw-m2-nang-cap-voi-goi-do-dinan-thay-tang-ap-intercooler-tang-cong-suat-len-446-ma-luc-3542d.html">
-                            <img src="https://cdn.dailyxe.com.vn/image/bmw-m2-nang-cap-voi-goi-do-dinan-thay-tang-ap-intercooler-tang-cong-suat-len-446-ma-luc-29291j2.jpg"
-                                alt="BMW M2 nâng cấp với gói độ Dinan, thay tăng áp, Intercooler, tăng công suất lên 446 mã lực"
-                                data-pin-nopin="true">
-                        </a>
-                        <div class="media-body">
-                            <h3 class="news-title"><a target="_self"
-                                    title="BMW M2 nâng cấp với gói độ Dinan, thay tăng áp, Intercooler, tăng công suất lên 446 mã lực"
-                                    href="https://dailyxe.com.vn/tin-tuc/bmw-m2-nang-cap-voi-goi-do-dinan-thay-tang-ap-intercooler-tang-cong-suat-len-446-ma-luc-3542d.html">BMW
-                                    M2 nâng cấp với gói độ Dinan, thay tăng áp, Intercooler, tăng công suất lên 446 mã
-                                    lực</a></h3>
-                            <p class="news-posted">
-                                <span class="origin"><a title="Otosaigon"
-                                        href="https://dailyxe.com.vn/otosaigon.com-cong-dong-oto-viet-nam-the-gioi-xe-hoi-oto-bon-banh-4w.html">Otosaigon</a></span>
-                                <span><i class="fa fa-calendar-o"></i>21-02-2018</span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="news col-sm-6">
-                    <div class="media">
-                        <a class="news-img" target="_self"
-                            title="Lexus LC F mới có thể mạnh 621 mã lực và chỉ nặng 1.778 kg"
-                            href="https://dailyxe.com.vn/tin-tuc/lexus-lc-f-moi-co-the-manh-621-ma-luc-va-chi-nang-1778-kg-2992d.html">
-                            <img src="https://cdn.dailyxe.com.vn/image/lexus-lc-f-moi-co-the-manh-621-ma-luc-va-chi-nang-1778-kg-24997j2.jpg"
-                                alt="Lexus LC F mới có thể mạnh 621 mã lực và chỉ nặng 1.778 kg" data-pin-nopin="true">
-                        </a>
-                        <div class="media-body">
-                            <h3 class="news-title"><a target="_self"
-                                    title="Lexus LC F mới có thể mạnh 621 mã lực và chỉ nặng 1.778 kg"
-                                    href="https://dailyxe.com.vn/tin-tuc/lexus-lc-f-moi-co-the-manh-621-ma-luc-va-chi-nang-1778-kg-2992d.html">Lexus
-                                    LC F mới có thể mạnh 621 mã lực và chỉ nặng 1.778 kg</a></h3>
-                            <p class="news-posted">
-                                <span class="origin"><a title="XeHay"
-                                        href="https://dailyxe.com.vn/xehay.vn-chuyen-trang-thong-tin-danh-gia-oto-xe-may-5w.html">XeHay</a></span>
-                                <span><i class="fa fa-calendar-o"></i>29-12-2017</span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="page-heading">
-                <h3 class="page-heading-title">Ý kiến bạn đọc</h3>
-            </div>
-
-
-
-            <div class="review-container ng-scope" ng-controller="reviews as ctrl" ng-init="sourceURL = '';init()">
-                <div class="review-header">
-                    <h4 class="review-title ng-binding">
-                        0 comment
-                    </h4>
-                </div>
-
-            </div>
-
-        </div>
-
-
-    </div>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js"
-        integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp"
-        crossorigin="anonymous"></script>
-
-
-    <script src="mb_core_inpage.js"></script>
-
-    <!-- <script src="mb_core.js"></script> -->
+ 
+    <script>
+        $(document).ready(function () {
+            $adsinpagefullscreen.renderHtml("<a href='https://dailyxe.com.vn/'><img src='vingroup-phu-quoc.gif' alt='Images'/></a>");
+        })
+    </script>
 </body>
 
 </html>
