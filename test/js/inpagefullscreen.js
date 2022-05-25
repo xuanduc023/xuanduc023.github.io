@@ -49,7 +49,7 @@ function AdsInpageFullScreen() {
         var positionabsulute = wdWidth > breakPointMobile ? 'relative' : 'absolute';
         var positionfixed = wdWidth > breakPointMobile ? 'relative' : 'fixed';
         var styleIframeDesktop = '#adm_inpage iframe{width: 100%; height: 267px; border: none;} #adm_inpage{padding: 30px 0px;}#adm_inpage{position: relative;}#adm_inpage::before{position: absolute;content: "' + contentTop + '";color: #666;top: 10px;left: 50%;  font-size: 14px;display: inline-block;transform: translateX(-50%);}#adm-inpage-h .desktop{display: block;}#adm-inpage-h .mobile{display: none;}';
-        var styleIframeMobile = '#admbg::after {position: absolute; content: "Đọc tiếp"; display: "block"; bottom: 0px; left: 50%; transform: translateX(-50%); padding: 4px 10px; background-color: rgba(0,0,0,.5); color: #fff; font-size: 12px; border-top-left-radius: 5px;border-top-right-radius: 5px;} #adm_inpage iframe{width: 100%; height: 100%;border: none;}#adm-inpage-h .desktop{display: none;}#adm-inpage-h .mobile{display: block;}';
+        var styleIframeMobile = '#admbg-adm img{width: 100%; margin: 0px;} #admbg::after {position: absolute; content: "Đọc tiếp"; display: "block"; bottom: 0px; left: 50%; transform: translateX(-50%); padding: 4px 10px; background-color: rgba(0,0,0,.5); color: #fff; font-size: 12px; border-top-left-radius: 5px;border-top-right-radius: 5px;} #adm_inpage iframe{width: 100%; height: 100%;border: none;}#adm-inpage-h .desktop{display: none;}#adm-inpage-h .mobile{display: block;}';
         var styleIframe = wdWidth > breakPointMobile ? styleIframeDesktop : styleIframeMobile;
         admbg.id = "admbg-adm";
         admbg.style.zIndex = '9';
