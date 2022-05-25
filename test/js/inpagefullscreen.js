@@ -1,7 +1,7 @@
 /* === COMPARE SPECIFICATION === */
 var $adsinpagefullscreen;
 function AdsInpageFullScreen() {
-
+    var breakPointMobile = 991;
     var windowPrototype = {
         wdHeight: function () {
             return window.screen.height;
@@ -34,6 +34,7 @@ function AdsInpageFullScreen() {
     }
 
     this.initClass = function (target) {
+        var wdWidth = window.innerWidth;
         var div_maincontains = target ? target : 'qcbody';
         this.createStyleSheet('#adm_inpage{left:25px !important;-webkit-transform: translate3d(0,0,0) !important;}#admbg-adm{height: 0px}#' + div_maincontains + ' > div, #' + div_maincontains + ' > p, #abde,.simplebanner.banner.desktophidden{position: relative;z-index: 88;background-color:#fff}#' + div_maincontains + ' > table{position: relative;z-index: 89;background-color:#fff}#admbg_1{clip: rect(0 ' + (windowPrototype.wdWidth()) + 'px ' + windowPrototype.wdHeight() + 'px 0px) !important;}#' + div_maincontains + ' .details__morenews, #' + div_maincontains + ' .details__morenews{z-index:99}');
         var pempty = document.querySelectorAll('p:empty');
@@ -43,10 +44,11 @@ function AdsInpageFullScreen() {
         var articleLocator = document.getElementById(div_maincontains);
         var _ckdiv = Math.floor(articleLocator.childElementCount * 2 / 3);
         var _element = articleLocator.childNodes[_ckdiv];
-        var position = $(window).width() > 991 ? 'absolute' : 'fixed';
+        var position = wdWidth > breakPointMobile ? 'absolute' : 'fixed';
+        var top = wdWidth > breakPointMobile ? '10px' : '40px';
         this.findTopLength(div_maincontains, _element);
         if (!document.getElementById('admClose')) {
-            var _closebottom = '<span id="admClose" style="position: ' + position + ' !important; color: #ffffff !important; width: 30px; height: 30px; top: 40px; right: 10px; z-index: 1; display: flex; align-items: center;justify-content: center;  padding: 3px 12px; border: 1px solid #b0b8b654; background: rgba(0, 0, 0, 0.5); font-size: 12px !important; border-radius: 50%;cursor:pointer;">X</span>';
+            var _closebottom = '<span id="admClose" style="position: ' + position + ' !important; color: #ffffff !important; width: 30px; height: 30px; top: ' + top + '; right: 10px; z-index: 1; display: flex; align-items: center;justify-content: center;  padding: 3px 12px; border: 1px solid #b0b8b654; background: rgba(0, 0, 0, 0.5); font-size: 12px !important; border-radius: 50%;cursor:pointer;">X</span>';
             $("#admbg_1").append(_closebottom);
             // Event close ads
             $("#admClose").on('click touch', function () {
@@ -58,9 +60,9 @@ function AdsInpageFullScreen() {
     this.findTopLength = function (target, curNode) {
         var admbg = document.createElement("div");
         var wdWidth = window.innerWidth;
-        var wdHeight = wdWidth > 991 ? 'unset' : windowPrototype.wdHeight();
-        var positionabsulute = wdWidth > 991 ? 'relative' : 'absolute';
-        var positionfixed = wdWidth > 991 ? 'relative' : 'fixed';
+        var wdHeight = wdWidth > breakPointMobile ? 'unset' : windowPrototype.wdHeight();
+        var positionabsulute = wdWidth > breakPointMobile ? 'relative' : 'absolute';
+        var positionfixed = wdWidth > breakPointMobile ? 'relative' : 'fixed';
         admbg.id = "admbg-adm";
         admbg.style.zIndex = '9';
         admbg.style.display = 'block';
