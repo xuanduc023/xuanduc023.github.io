@@ -1,20 +1,20 @@
 /*===== CART =====*/
 .cart {
-  position: relative; 
-  order: 3;   
-  border-radius: 30px;
   display: flex;
+  position: relative;
+  border-radius: 30px;
   flex-direction: column;
+  padding: 10px;
 }
 .cart .text {
-  text-transform: uppercase; 
+  text-transform: uppercase;
   margin-top: 4px;
   color: var(--color-white);
 }
 .cart .number {
   position: absolute;
-  top: -4px;
-  right: 15px;
+  top: 0px;
+  right: 0px;
   height: 16px;
   width: 16px;
   line-height: 16px;
@@ -34,9 +34,9 @@
 /* ===== CART ===== */
 .box-cart {
   position: relative;
-  width: 750px;
+  width: 750px; 
   max-width: 100%;
-  padding: 1.5rem;
+  padding: 0px 10px;
   margin: 0 auto var(--margin-bottom) auto;
   background-color: #fff;
 }
@@ -45,28 +45,38 @@
   font-size: 120%;
   text-transform: uppercase;
   margin-right: auto;
+  margin-bottom: 0px;
 }
 .box-cart .box-cart-header .btn-continue {
+  display: flex;
+  align-items: center;
   font-size: 100%;
 }
 
-.box-cart-header{
-  padding: 20px 10px 10px 10px;
-  border: 1px solid var(--color-primary);
-  margin-bottom: 20px;
+.box-cart-header {
   border-radius: var(--border-radius);
+  padding: 10px 0px;
+  margin-bottom: 20px;
 }
-.box-cart-header .fa{
-  width: 80px;
-  height: 80px;
+.box-cart-header .fa {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 20px;
   filter: var(--filter-color-primary);
 }
-.box-cart-header .box-cart-title{
-  font-weight: bold;
+.box-cart-header .box-cart-title {
+  font-weight: bold; 
+}
+.product-cart:not(:first-child){ 
+  border-top: 1px dashed var(--color-border);
+  padding: 1rem 0;
 }
 .product-cart,
 .product-total {
-  padding: 1rem 0;
+  padding: 1rem 0; 
+}
+
+.product-total {
   border-top: 1px solid var(--color-border);
 }
 .product-cart .product-item-buy {
@@ -78,6 +88,8 @@
   text-decoration: underline;
 }
 .product-cart .money {
+  color: var(--color-text);
+  font-weight: bold;
   font-size: 110%;
   margin-bottom: 4px;
 }
@@ -90,10 +102,8 @@
   font-weight: 700;
 }
 .cart-info-user {
-  border-top: 1px solid #bbb;
-  padding: 1.5rem 1.5rem 0 1.5rem;
-  margin-left: -1.5rem;
-  margin-right: -1.5rem;
+  background-color: #efefef;
+  padding: 20px;
 }
 .cart-info-user .form-group-button {
   text-align: center;
@@ -106,7 +116,7 @@
 }
 .cart-invoice {
   position: relative;
-  background: #f0f0f0;
+  background: #fff;
   margin-top: 15px;
   padding: 1rem 1rem 0 1rem;
   margin-bottom: 1rem;
@@ -121,7 +131,7 @@
   left: 65px;
   width: 0;
   height: 0;
-  border-bottom: 10px solid #f0f0f0;
+  border-bottom: 10px solid #fff;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
 }
@@ -190,7 +200,7 @@
 @media (max-width: 991px) {
   .cart {
     position: absolute;
-    right: 30px;
+    right: 0px;
     top: 0px;
     z-index: 9999;
   }

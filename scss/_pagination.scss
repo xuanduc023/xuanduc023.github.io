@@ -12,14 +12,14 @@
 }
 .pagination > .page-item > .page-link {
   color: #555;
-  width: 40px;
+  width: 44px;
   height: 40px;
   line-height: 40px;
   text-align: center;
   border-color: var(--color-border);
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
-  border-radius: 50%;
+  border-radius: 4px;
   outline: none !important;
   box-shadow: none !important;
   padding: 0;
@@ -38,7 +38,7 @@
 .pagination > .page-item.active > .page-link:hover,
 .pagination > .page-item > .page-link:hover,
 .pagination > .page-item > .page-link:focus {
-  background-color: var(--color-text-hover);
-  border-color: var(--color-text-hover);
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
   color: var(--color-white);
 }

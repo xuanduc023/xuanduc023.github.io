@@ -1,13 +1,14 @@
 ﻿<!DOCTYPE html>
 <html lang="vi">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Giỏ hàng - DOGI</title>
+    <title>Giỏ hàng - BasicFashion</title>
     <!-- core CSS -->
-    <link href="css/library.min.css" rel="stylesheet"> 
+    <link href="css/library.min.css" rel="stylesheet">
     <link href="css/style.min.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -21,116 +22,81 @@
     <script src="js/home.min.js"></script>
     <link rel="shortcut icon" href="images/favico.png">
 </head>
+
 <body>
+    <section class="event">
+        <a class="event-link" href="#">
+            <span class="dot"><span class="ping"></span></span>
+            <span class="event-text">Flash sale giảm đến <strong>50%</strong>trong ngày hôm nay</span>
+            <span class="btn-event">Mua ngay</span>
+        </a>
+    </section>
     <header class="header">
-        <div class="header-main">
-            <div class="container">
-                <div class="d-flex align-items-center justify-content-between">
-                    <a class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <i class="icon-bars"></i>
-                    </a>
-                    <a class="logo" href="#">
-                        <img src="images_test/logo.png" />
-                    </a>
-                    <a class="d-flex align-items-center cart" href="/cart" title="Giỏ hàng" rel="nofollow"><i class="fa fa-cart"></i><span class="number">0</span><span class="text">Giỏ hàng</span></a>
-                    <form class="form-search">
-                        <input class="form-control" type="text" placeholder="Nhập từ khóa cần tìm..." />
-                        <a class="btn-search center" href="#"></a>
-                    </form>
-                </div>
-            </div>
-        </div>
         <div class="header-nav">
             <div class="container">
                 <nav class="navbar navbar-expand-lg">
+                    <a class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="icon-bars"></i>
+                    </a>
+                    <a class="navbar-brand logo" href="01_index.html">
+                        <img src="images_test/logo.png" />
+                    </a>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Trang chủ</a>
-                            </li>
-                            <li class="nav-item dropdown full">
-                                <a class="nav-link" href="#">Sản phẩm<i class="caret"></i></a>
+                            <li class="nav-item dropdown full"><a class="nav-link" href="02_products.html">Nam<i class="caret"></i></a>
                                 <div class="dropdown-menu">
-                                    <div class="col-dropdown-item">
-                                        <a href="#"><img src="images_test/icon-mazda-2.png" /><span class="dropdown-item-title">Mazda 2</span></a>
-                                    </div>
-                                    <div class="col-dropdown-item">
-                                        <a href="#"><img src="images_test/icon-mazda-3.png" /><span class="dropdown-item-title">Mazda 3</span></a>
-                                    </div>
-                                    <div class="col-dropdown-item">
-                                        <a href="#"><img src="images_test/icon-mazda-6.png" /><span class="dropdown-item-title">Mazda 6</span></a>
-                                    </div>
-                                    <div class="col-dropdown-item">
-                                        <a href="#"><img src="images_test/icon-mazda-cx5.png" /><span class="dropdown-item-title">Mazda CX-5</span></a>
-                                    </div>
-                                    <div class="col-dropdown-item">
-                                        <a href="#"><img src="images_test/icon-mazda-cx8.png" /><span class="dropdown-item-title">Mazda CX-8</span></a>
-                                    </div>
-                                    <div class="col-dropdown-item">
-                                        <a href="#"><img src="images_test/icon-mazda-bt50.png" /><span class="dropdown-item-title">Mazda BT-50</span></a>
-                                    </div>
+                                    <div class="col-dropdown-item"><a href="#"><img src="images_test/menu-1.png" /><span class="dropdown-item-title">Áo thun</span></a></div>
+                                    <div class="col-dropdown-item"><a href="#"><img src="images_test/menu-1.png" /><span class="dropdown-item-title">Áo polo</span></a></div>
+                                    <div class="col-dropdown-item"><a href="#"><img src="images_test/menu-1.png" /><span class="dropdown-item-title">Áo sơ mi</span></a></div>
+                                    <div class="col-dropdown-item"><a href="#"><img src="images_test/menu-1.png" /><span class="dropdown-item-title">Áo khoát</span></a></div>
+                                    <div class="col-dropdown-item"><a href="#"><img src="images_test/menu-1.png" /><span class="dropdown-item-title">Đồ công sở</span></a></div>
+                                    <div class="col-dropdown-item"><a href="#"><img src="images_test/menu-1.png" /><span class="dropdown-item-title">Quần dài</span></a></div>
+                                    <div class="col-dropdown-item"><a href="#"><img src="images_test/menu-1.png" /><span class="dropdown-item-title">Quần short</span></a></div>
+                                    <div class="col-dropdown-item"><a href="#"><img src="images_test/menu-1.png" /><span class="dropdown-item-title">Đồ lót</span></a></div>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown full"><a class="nav-link" href="02_products.html">Nữ<i class="caret"></i></a>
+                                <div class="dropdown-menu">
+                                    <div class="col-dropdown-item"><a href="#"><img src="images_test/menu-2.png" /><span class="dropdown-item-title">Áo thun</span></a></div>
+                                    <div class="col-dropdown-item"><a href="#"><img src="images_test/menu-2.png" /><span class="dropdown-item-title">Áo polo</span></a></div>
+                                    <div class="col-dropdown-item"><a href="#"><img src="images_test/menu-2.png" /><span class="dropdown-item-title">Áo sơ mi</span></a></div>
+                                    <div class="col-dropdown-item"><a href="#"><img src="images_test/menu-2.png" /><span class="dropdown-item-title">Áo khoát</span></a></div>
+                                    <div class="col-dropdown-item"><a href="#"><img src="images_test/menu-2.png" /><span class="dropdown-item-title">Đồ công sở</span></a></div>
+                                    <div class="col-dropdown-item"><a href="#"><img src="images_test/menu-2.png" /><span class="dropdown-item-title">Quần dài</span></a></div>
+                                    <div class="col-dropdown-item"><a href="#"><img src="images_test/menu-2.png" /><span class="dropdown-item-title">Quần short</span></a></div>
+                                    <div class="col-dropdown-item"><a href="#"><img src="images_test/menu-2.png" /><span class="dropdown-item-title">Đồ lót</span></a></div>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown full"><a class="nav-link" href="02_products.html">Trẻ em<i class="caret"></i></a>
+                                <div class="dropdown-menu">
+                                    <div class="col-dropdown-item"><a href="#"><img src="images_test/menu-2.png" /><span class="dropdown-item-title">Áo thun</span></a></div>
+                                    <div class="col-dropdown-item"><a href="#"><img src="images_test/menu-2.png" /><span class="dropdown-item-title">Áo polo</span></a></div>
+                                    <div class="col-dropdown-item"><a href="#"><img src="images_test/menu-2.png" /><span class="dropdown-item-title">Áo sơ mi</span></a></div>
+                                    <div class="col-dropdown-item"><a href="#"><img src="images_test/menu-2.png" /><span class="dropdown-item-title">Áo khoát</span></a></div>
+                                    <div class="col-dropdown-item"><a href="#"><img src="images_test/menu-2.png" /><span class="dropdown-item-title">Quần dài</span></a></div>
+                                    <div class="col-dropdown-item"><a href="#"><img src="images_test/menu-2.png" /><span class="dropdown-item-title">Quần short</span></a></div>
                                 </div>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link" href="#">Dịch vụ<i class="caret"></i></a>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <a class="dropdown-item" href="#">Chế độ bảo hành</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="#">Bảo dưỡng định kỳ</a>
-                                    </li>
-                                    <li class="dropdown-submenu">
-                                        <a class="dropdown-item" href="#">Phụ tùng và phụ kiện<i class="caret"></i></a>
-                                        <ul class="dropdown-menu">
-                                            <li>
-                                                <a class="dropdown-item" href="#">Chế độ bảo hành</a>
-                                            </li>
-                                            <li>
-                                                <a class="dropdown-item" href="#">Bảo dưỡng định kỳ</a>
-                                            </li>
-                                            <li>
-                                                <a class="dropdown-item" href="#">Phụ tùng và phụ kiện</a>
-                                            </li>
-                                            <li>
-                                                <a class="dropdown-item" href="#">Câu hỏi thường gặp</a>
-                                            </li>
-                                            <li>
-                                                <a class="dropdown-item" href="#">Dịch vụ sửa chữa</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="#">
-                                            Câu hỏi thường gặp
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="#">
-                                            Dịch vụ sửa chữa
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Công nghệ</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link" href="#">Tin tức<i class="caret"></i></a>
+                                <a class="nav-link" href="#">Phụ kiện<i class="caret"></i></a>
                                 <div class="dropdown-menu">
-                                    <a class="dropdown-item d-flex align-items-center" href="#">
-                                        Tin thị trường
-                                    </a>
-                                    <a class="dropdown-item d-flex align-items-center" href="#">
-                                        Tin khuyến mãi
-                                    </a>
+                                    <a class="dropdown-item d-flex align-items-center" href="#">Khẩu trang</a>
+                                    <a class="dropdown-item d-flex align-items-center" href="#">Vớ</a>
+                                    <a class="dropdown-item d-flex align-items-center" href="#">Nón</a>
                                 </div>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Liên hệ</a>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="08_news.html">Tin tức<i class="caret"></i></a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item d-flex align-items-center" href="#">Tin thị trường </a>
+                                    <a class="dropdown-item d-flex align-items-center" href="#">Tin khuyến mãi </a>
+                                </div>
                             </li>
+                            <li class="nav-item"><a class="nav-link" href="#">Liên hệ</a></li>
                         </ul>
+                        <form class="form-search"><input class="form-control" type="text" placeholder="Tìm kiếm..." /><a class="btn-search center" href="#"></a></form>
                     </div>
+                    <a class="cart" href="04_cart.html" title="Giỏ hàng" rel="nofollow"><i class="fa fa-cart"></i><span class="number">0</span></a>
                 </nav>
             </div>
         </div>
@@ -149,175 +115,204 @@
         </div>
     </section>
 
-    <section class="box-cart">
-        <div class="d-flex box-cart-header">
-            <h5 class="box-cart-title">Giỏ hàng của bạn</h5>
-            <a class="btn-continue" title="Mua thêm sản phẩm khác" href="#">← Mua thêm sản phẩm</a>
-        </div>
+    <section class="wrap">
+        <div class="box-cart">
+            <div class="d-flex box-cart-header">
+                <h5 class="box-cart-title">Giỏ hàng của bạn</h5>
+                <a class="btn-continue" title="Mua thêm sản phẩm khác" href="#">← Mua thêm sản phẩm</a>
+            </div>
 
-        <div class="product-cart-list">
-            <div class="d-flex product-cart">
-                <div class="media product-item-buy">
-                    <a class="product-item-img" title="Đầm dạ hội xẻ tà trễ vai nhẹ cực quyến rũ" href="#">
-                        <img alt="Đầm dạ hội xẻ tà trễ vai nhẹ cực quyến rũ" src="images_test/pro-1.jpg">
-                    </a>
-                    <div class="media-body">
-                        <h3 class="product-item-title"><a title="Đầm dạ hội xẻ tà trễ vai nhẹ cực quyến rũ" href="#">Đầm dạ hội xẻ tà trễ vai nhẹ cực quyến rũ</a></h3>
-                        <a rel="nofollow" class="btn-delete" href="javascript:deleteSanPham(141)"><span></span>Xóa</a>
+            <div class="product-cart-list">
+                <div class="d-flex product-cart">
+                    <div class="media product-item-buy">
+                        <a class="product-item-img" title="Đầm dạ hội xẻ tà trễ vai nhẹ cực quyến rũ" href="#">
+                            <img alt="Đầm dạ hội xẻ tà trễ vai nhẹ cực quyến rũ" src="images_test/pro-1.jpg">
+                        </a>
+                        <div class="media-body">
+                            <h3 class="product-item-title"><a title="Đầm dạ hội xẻ tà trễ vai nhẹ cực quyến rũ" href="#">Đầm dạ hội xẻ tà trễ vai nhẹ cực quyến rũ</a></h3>
+                            <a rel="nofollow" class="btn-delete" href="javascript:deleteSanPham(141)"><span></span>Xóa</a>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column align-items-end">
+                        <span class="money">1.900.000₫</span>
+                        <div class="input-group spinner">
+                            <button class="btn" type="button">-</button>
+                            <input type="text" class="form-control" maxlength="2" name="txtSoLuong" value="2" min="1" max="99" idsanpham="141" price="1900000">
+                            <button class="btn" type="button">+</button>
+                        </div>
                     </div>
                 </div>
-                <div class="d-flex flex-column align-items-end">
-                    <span class="money">1.900.000₫</span>
-                    <div class="input-group spinner">
-                        <button class="btn" type="button">-</button>
-                        <input type="text" class="form-control" maxlength="2" name="txtSoLuong" value="2" min="1" max="99" idsanpham="141" price="1900000">
-                        <button class="btn" type="button">+</button>
+                <div class="d-flex product-cart">
+                    <div class="media product-item-buy">
+                        <a class="product-item-img" title="Đầm dạ hội xẻ tà trễ vai nhẹ cực quyến rũ" href="#">
+                            <img alt="Đầm dạ hội xẻ tà trễ vai nhẹ cực quyến rũ" src="images_test/pro-6.jpg">
+                        </a>
+                        <div class="media-body">
+                            <h3 class="product-item-title"><a title="Đầm dạ hội xẻ tà trễ vai nhẹ cực quyến rũ" href="#">Đầm dạ hội xẻ tà trễ vai nhẹ cực quyến rũ</a></h3>
+                            <a rel="nofollow" class="btn-delete" href="javascript:deleteSanPham(141)"><span></span>Xóa</a>
+                        </div>
                     </div>
+                    <div class="d-flex flex-column align-items-end">
+                        <span class="money">1.900.000₫</span>
+                        <div class="input-group spinner">
+                            <button class="btn" type="button">-</button>
+                            <input type="text" class="form-control" maxlength="2" name="txtSoLuong" value="2" min="1" max="99" idsanpham="141" price="1900000">
+                            <button class="btn" type="button">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex product-total">
+                    <span class="product-total-label">Tổng tiền</span>
+                    <span class="money"><span id="lblTotal">3.800.000</span>đ</span>
                 </div>
             </div>
-            <div class="d-flex product-cart">
-                <div class="media product-item-buy">
-                    <a class="product-item-img" title="Đầm dạ hội xẻ tà trễ vai nhẹ cực quyến rũ" href="#">
-                        <img alt="Đầm dạ hội xẻ tà trễ vai nhẹ cực quyến rũ" src="images_test/pro-6.jpg">
-                    </a>
-                    <div class="media-body">
-                        <h3 class="product-item-title"><a title="Đầm dạ hội xẻ tà trễ vai nhẹ cực quyến rũ" href="#">Đầm dạ hội xẻ tà trễ vai nhẹ cực quyến rũ</a></h3>
-                        <a rel="nofollow" class="btn-delete" href="javascript:deleteSanPham(141)"><span></span>Xóa</a>
-                    </div>
-                </div>
-                <div class="d-flex flex-column align-items-end">
-                    <span class="money">1.900.000₫</span>
-                    <div class="input-group spinner">
-                        <button class="btn" type="button">-</button>
-                        <input type="text" class="form-control" maxlength="2" name="txtSoLuong" value="2" min="1" max="99" idsanpham="141" price="1900000">
-                        <button class="btn" type="button">+</button>
-                    </div>
-                </div>
-            </div>
-            <div class="d-flex product-total">
-                <span class="product-total-label">Tổng tiền</span>
-                <span class="money"><span id="lblTotal">3.800.000</span>đ</span>
-            </div>
-        </div>
 
-        <div class="cart-info-user">
-            <div class="row">
-                <div class="col-sm-6 form-group">
-                    <input type="text" class="form-control" id="txtHoTen" name="txtHoTen" maxlength="50" placeholder="Họ tên (bắt buộc)" value="">
-                </div>
-                <div class="col-sm-6 form-group">
-                    <input type="text" class="form-control" id="txtDienThoai" name="txtDienThoai" maxlength="50" placeholder="Điện thoại (bắt buộc)" value="">
-                </div>
-            </div>
-            <div class="form-group">
-                <textarea class="form-control" id="txtGhiChu" name="txtGhiChu" maxlength="1000" placeholder="Yêu cầu khác (không bắt buộc)"></textarea>
-            </div>
-            <p><i class="fa fa-map"></i><strong style="margin-left:6px;">Địa chỉ giao hàng</strong></p>
-            <div class="d-flex flex-column cart-invoice">
+            <div class="cart-info-user">
                 <div class="row">
                     <div class="col-sm-6 form-group">
-                        <select class="form-control" id="cboTinhThanh" name="cboTinhThanh">
-                            <option value="-1">== Chọn Tỉnh Thành ===</option>
-                            <option value="63">TP.HCM</option>
-                            <option value="24">Hà Nội</option>
-                        </select>
+                        <input type="text" class="form-control" maxlength="50" placeholder="Họ tên (bắt buộc)" value="">
                     </div>
                     <div class="col-sm-6 form-group">
-                        <select class="form-control" id="cboQuanHuyen" name="cboQuanHuyen">
-                            <option value="-1">== Chọn Quận Huyện ===</option>
-                        </select>
+                        <input type="text" class="form-control" maxlength="50" placeholder="Điện thoại (bắt buộc)" value="">
                     </div>
                 </div>
                 <div class="form-group">
-                    <input type="text" class="form-control" id="txtDiaChi" name="txtDiaChi" maxlength="200" placeholder="Số nhà, Tên đường, Phường / Xã" value="">
+                    <textarea class="form-control" placeholder="Yêu cầu khác (không bắt buộc)"></textarea>
                 </div>
-                <label><i class="fa fa-clock"></i> Thời gian giao hàng</label>
-                <div class="row">
-                    <div class="col-sm-6 form-group">
-                        <input type="text" class="form-control" id="txtNgayGiao" name="txtNgayGiao" maxlength="20" placeholder="Ngày giao" value="27-10-2019">
+                <p><i class="fa fa-map"></i><strong style="margin-left:6px;">Địa chỉ giao hàng</strong></p>
+                <div class="d-flex flex-column cart-invoice">
+                    <div class="row">
+                        <div class="col-sm-6 form-group">
+                            <select class="form-control">
+                                <option value="-1">== Chọn Tỉnh Thành ===</option>
+                                <option value="63">TP.HCM</option>
+                                <option value="24">Hà Nội</option>
+                            </select>
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <select class="form-control">
+                                <option value="-1">== Chọn Quận Huyện ===</option>
+                            </select>
+                        </div>
                     </div>
-                    <div class="col-sm-6 form-group">
-                        <select class="form-control" id="cboThoiGianGiao" name="cboThoiGianGiao">
-                            <option>Trước 11 giờ</option>
-                            <option>Trước 17 giờ</option>
-                            <option>Toàn thời gian</option>
-                        </select>
+                    <div class="form-group">
+                        <input type="text" class="form-control" maxlength="200" placeholder="Số nhà, Tên đường, Phường / Xã" value="">
+                    </div>
+                    <label><i class="fa fa-clock"></i> Thời gian giao hàng</label>
+                    <div class="row">
+                        <div class="col-sm-6 form-group">
+                            <input type="text" class="form-control" maxlength="20" placeholder="Ngày giao" value="27-10-2019">
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <select class="form-control" id="cboThoiGianGiao" name="cboThoiGianGiao">
+                                <option>Trước 11 giờ</option>
+                                <option>Trước 17 giờ</option>
+                                <option>Toàn thời gian</option>
+                            </select>
+                        </div>
+                    </div>
+                    <label><i class="fa fa-pay"></i> Hình thức thanh toán</label>
+                    <div class="form-group">
+                        <label class="form-check-label" style="margin-right:10px;"><input type="radio" id="radThanhToanChuyenKhoan" name="radHinhThucThanhToan" checked="checked">Chuyển khoản ngân hàng</label>
+                        <label class="form-check-label"><input type="radio" id="radThanhToanCOD" name="radHinhThucThanhToan">Khi nhận hàng (COD)</label>
                     </div>
                 </div>
-                <label><i class="fa fa-pay"></i> Hình thức thanh toán</label>
                 <div class="form-group">
-                    <label class="form-check-label" style="margin-right:10px;"><input type="radio" id="radThanhToanChuyenKhoan" name="radHinhThucThanhToan" checked="checked">Chuyển khoản ngân hàng</label>
-                    <label class="form-check-label"><input type="radio" id="radThanhToanCOD" name="radHinhThucThanhToan">Khi nhận hàng (COD)</label>
+                    <label class="form-check-label"><input type="checkbox" id="chkXuatHoaDon" name="chkXuatHoaDon">Xuất hóa đơn Công ty</label>
                 </div>
-            </div>
-            <div class="form-group">
-                <label class="form-check-label"><input type="checkbox" id="chkXuatHoaDon" name="chkXuatHoaDon">Xuất hóa đơn Công ty</label>
-            </div>
-            <div class="d-flex flex-column cart-invoice none" id="areainvoice">
-                <div class="form-group">
-                    <input type="text" class="form-control" id="txtTenCongTy" name="txtTenCongTy" maxlength="100" placeholder="Tên Công ty" value="">
-                </div>
-                <div class="form-group">
-                    <input type="text" class="form-control" id="txtDiaChiCongTy" name="txtDiaChiCongTy" maxlength="200" placeholder="Địa chỉ Công ty" value="">
-                </div>
-                <div class="form-group">
-                    <input type="text" class="form-control" id="txtMaSoThue" name="txtMaSoThue" maxlength="20" placeholder="Mã số thuế" value="">
-                </div>
-                <div class="form-group">
-                    <div class="d-flex product-total">
-                        <span class="product-total-label">Tổng tiền + 10% VAT</span>
-                        <span class="money"><span id="lblTongCong">4.180.000</span>đ</span>
+                <div class="d-flex flex-column cart-invoice none" id="areainvoice">
+                    <div class="form-group">
+                        <input type="text" class="form-control" maxlength="100" placeholder="Tên Công ty" value="">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" maxlength="200" placeholder="Địa chỉ Công ty" value="">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" maxlength="20" placeholder="Mã số thuế" value="">
+                    </div>
+                    <div class="form-group">
+                        <div class="d-flex product-total">
+                            <span class="product-total-label">Tổng tiền + 10% VAT</span>
+                            <span class="money"><span id="lblTongCong">4.180.000</span>đ</span>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="form-group-button">
-                <a rel="nofollow" href="javascript:void(0)" class="btn btn-default" id="btnOrder">ĐẶT HÀNG NGAY</a>
+                <div class="form-group-button">
+                    <a rel="nofollow" href="05_cart-succes.html" class="btn btn-default" id="btnOrder">ĐẶT HÀNG NGAY</a>
+                </div>
             </div>
         </div>
     </section>
-
+    <section class="wrap-service">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="media service-item align-items-center">
+                        <span class="icon">
+                            <i class="fa fa-shipping"></i>
+                        </span>
+                        <div class="media-body">
+                            <h5 class="service-title">MIỄN PHÍ GIAO HÀNG</h5>
+                            <span class="service-desc">Cho đơn từ 500.000đ trong 10km đầu tiên</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="media service-item align-items-center">
+                        <span class="icon">
+                            <i class="fa fa-credit-card"></i>
+                        </span>
+                        <div class="media-body">
+                            <h5 class="service-title">Thanh Toán Linh Hoạt</h5>
+                            <span class="service-desc">Qua thẻ & COD</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="media service-item align-items-center">
+                        <span class="icon">
+                            <i class="fa fa-refesh"></i>
+                        </span>
+                        <div class="media-body">
+                            <h5 class="service-title">1 Đổi 1 Trong 1 Tháng</h5>
+                            <span class="service-desc">Tại tất cả cửa hàng trên toàn quốc</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <footer class="footer">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5">
                     <div class="footer-block">
-                        <h3 class="footer-block-title">CTY TNHH TM và DV HUYỀN THOẠI VIỆT</h3>
+                        <h3 class="footer-block-title">Basic Fashion Store</h3>
                         <div class="footer-contact">
                             <div class="media">
-                                <div class="footer-contact-icon">
-                                    <i class="fa fa-phone">&nbsp;</i>
+                                <div class="media-body">
+                                    <p class="footer-contact-text">Tầng Trệt Tòa Nhà D-Head 371 Nguyễn Kiệm, Phường 3, Quận Gò Vấp, TP.HCM</p>
                                 </div>
+                            </div>
+                            <div class="media">
                                 <div class="media-body">
                                     <p class="footer-contact-title">Gọi mua hàng</p>
                                     <p class="footer-contact-text"><a href="tel:0838377877" title="Gọi ngay">0838.377.877 - 0938.377.877</a></p>
                                 </div>
                             </div>
                             <div class="media">
-                                <div class="footer-contact-icon">
-                                    <i class="fa fa-email">&nbsp;</i>
-                                </div>
                                 <div class="media-body">
                                     <p class="footer-contact-title">Email</p>
-                                    <p class="footer-contact-text"><a href="mailto:huyenthoaiviet.com.vn@gmail.com" title="Gửi mail cho chúng tôi">huyenthoaiviet.com.vn@gmail.com</a></p>
+                                    <p class="footer-contact-text"><a href="mailto:basic.fashion@gmail.com" title="Gửi mail cho chúng tôi">basic.fashion@gmail.com</a></p>
                                 </div>
                             </div>
                             <div class="media">
-                                <div class="footer-contact-icon">
-                                    <i class="fa fa-map">&nbsp;</i>
-                                </div>
                                 <div class="media-body">
-                                    <p class="footer-contact-title">Địa chỉ</p>
-                                    <p class="footer-contact-text">TPHCM: 238/11 Bạch Đằng, P. 24, Q. Bình Thạnh, TP.HCM</p>
-                                    <p class="footer-contact-text">Hà Nội: Số 33 Ngõ 89 Lạc Long Quân,Q. Cầu Giấy, Hà Nội</p>
-                                </div>
-                            </div>
-                            <div class="media">
-                                <div class="footer-contact-icon">
-                                    <i class="fa fa-clock">&nbsp;</i>
-                                </div>
-                                <div class="media-body">
-                                    <p class="footer-contact-title">Giờ mở cửa</p>
-                                    <p class="footer-contact-text">Thứ 2 - CN: 08:00 – 19h00</p>
+                                    <p class="footer-contact-text">Kết Nối Với Chúng Tôi</p>
+                                    <ul class="social mt-2">
+                                        <li><a class="facebook" href="https://www.facebook.com/CaPheChonHuyenThoaiViet/"><i class="fa fa-facebook">&nbsp;</i></a></li>
+                                        <li><a class="youtube" href="#"><i class="fa fa-youtube">&nbsp;</i></a></li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -332,32 +327,17 @@
                                     <li><a href="#">Hướng dẫn mua hàng</a></li>
                                     <li><a href="#">Hướng dẫn thanh toán</a></li>
                                     <li><a href="#">Chính sách đổi trả</a></li>
-                                    <li><a href="#">Chính sách bảo mật</a></li>
-                                    <li><a href="#">Liên hệ với chúng tôi</a></li>
+                                    <li><a href="#">Chính sách thanh toán</a></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="col-lg-7">
                             <div class="footer-block">
-                                <h3 class="footer-block-title">Kết Nối Với Chúng Tôi</h3>
-                                <div class="footer-fanpage">
-                                        <div class="fb-page" data-adapt-container-width="true" data-height=""
-                                            data-hide-cover="false"
-                                            data-href="https://www.facebook.com/CaPheChonHuyenThoaiViet/"
-                                            data-show-facepile="true" data-small-header="false" data-tabs=""
-                                            data-width="400">
-                                            <blockquote cite="https://www.facebook.com/CaPheChonHuyenThoaiViet/"
-                                                class="fb-xfbml-parse-ignore"><a
-                                                    href="https://www.facebook.com/CaPheChonHuyenThoaiViet/">Cà phê Chồn
-                                                    Huyền Thoại Việt</a></blockquote>
-                                        </div>
-                                    </div>
-                                <ul class="social">
-                                    <li><a class="facebook" href="#"><i class="fa fa-facebook">&nbsp;</i></a></li>
-                                    <li><a class="instagram" href="#"><i class="fa fa-instagram">&nbsp;</i></a></li>
-                                    <li><a class="youtube" href="#"><i class="fa fa-youtube">&nbsp;</i></a></li>
-                                    <li><a class="pinterest" href="#"><i class="fa fa-pinterest">&nbsp;</i></a></li>
-                                    <li><a class="twitter" href="#"><i class="fa fa-twitter">&nbsp;</i></a></li>
+                                <h3 class="footer-block-title">Về chúng tôi</h3>
+                                <ul class="footer-list">
+                                    <li><a href="#">Giới thiệu về BasicFashion</a></li>
+                                    <li><a href="#">Chính sách bảo mật thông tin</a></li>
+                                    <li><a href="#">Liên hệ với chúng tôi</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -366,7 +346,7 @@
             </div>
         </div>
         <div class="copyright">
-            <p>Copyright © 2020 Huyền Thoại Việt. All rights reserved</p>
+            <p>Copyright © 2022 BasicFashion. All rights reserved</p>
         </div>
     </footer>
     <div class="bg-overlay" data-toggle="collapse" data-target="#navbarSupportedContent"></div>
@@ -376,4 +356,5 @@
         });
     </script>
 </body>
+
 </html>

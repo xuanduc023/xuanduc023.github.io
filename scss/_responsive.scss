@@ -1,19 +1,18 @@
-// @media (max-width: 1366px){
- 
-// }
- 
-// @media (max-width: 991px){ 
-
-// }
- 
-// @media (max-width: 768px){
-    
-// }
- 
-// @media (max-width: 575px) {
+@media (min-width: 1200px) {
+    .container {
+      max-width: 1200px;
+    }
+  }
   
-// }
-
-// @media (max-width: 375px) {
-     
-// }
+  @media (min-width: 1600px) {
+    .container {
+      max-width: 1400px;
+    }
+  }
+  
+  @media (min-width: 1900px) {
+    .container {
+      max-width: 1600px;
+    }
+  }
+  
